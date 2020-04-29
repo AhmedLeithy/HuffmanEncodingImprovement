@@ -4,6 +4,6 @@ class tree
 {
 public:
 	node* root;
-	node* combineNode(node* left, node* right);
+	node* combineNodes(node* left, node* right);
 };
 
