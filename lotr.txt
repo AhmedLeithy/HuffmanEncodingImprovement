@@ -1,4 +1,4 @@
-####-SPECIAL NOTE: 
+﻿####-SPECIAL NOTE: 
 
  
 In this reprint several minor inaccuracies, most of them noted by readers, have 
@@ -48458,7 +48458,7 @@ didn't speak, because I had  a job to  do first. But now I have  spoken, and
 she says:  "Well, you've  wasted  a year,  so why wait longer?"  "Wasted?" I  
 says. "I wouldn't call it that." Still I see what she means. I feel torn  in 
 two, as you might say.' 
-     'I see,' said Frodo: 'you want to get married, and yet you want to live 
+    'I see,' said Frodo: 'you want to get married, and yet you want to live 
 with me in  Bag End too? But my dear  Sam, how easy! Get  married as soon as 
 you  can, and then move in with Rosie. There's room enough in Bag End for as 
 big a family as you could wish for.' 
@@ -48719,4 +48719,4 @@ him in, and set him in his chair, and put little Elanor upon his lap.
      He drew a deep breath. 'Well, I'm back,' he said. 
  
 
-####-
+####

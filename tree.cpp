@@ -1,10 +1,13 @@
 #include "tree.h"
 
-node* tree::combineNodes(node* left, node* right)
+node tree::combineNodes(node& left, node& right)
 {
-	node* returned = new node();
-	returned->left = left;
-	returned->right = right;
+	node *returned = new node();
+	node* newLeft = new node(left);
+	node* newRight = new node(right);
 
-	return returned;
+	returned->left = newLeft;
+	returned->right = newRight;
+
+	return *returned;
 }

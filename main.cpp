@@ -7,7 +7,9 @@ int main()
 {
 	HuffmanEncoder hf;
 
-	hf.runSingleSymbol("lotr.txt");
+	hf.runSingleSymbol("lotr2.txt");
 	//hf.runSingleSymbol();
+	hf.encode();
+	hf.decode();
 }
 

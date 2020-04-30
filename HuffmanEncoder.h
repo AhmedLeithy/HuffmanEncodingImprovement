@@ -1,8 +1,9 @@
 #pragma once
 #include <string>
-#include <map>
+#include <unordered_map> // changed that to unordered_map
+#include "tree.h"
 using namespace std;
-#define debug 1
+#define debug 0
 
 class HuffmanEncoder
 {
@@ -13,10 +14,12 @@ class HuffmanEncoder
 	2 = 2 block encoding
 	*/
 
-	map<string, string> encodingMap;
+	unordered_map<string, string> encodingMap;
 
 	string* fileText = new string();
-	
+	string* encText = new string();
+
+	tree t;
 
 	int singleSymbolFrequencies[256];	  //[a][b][c][d]
 	int blockSymbolFrequencies[256][256]; //[ab][cd]
@@ -35,13 +38,20 @@ class HuffmanEncoder
 
 	//build Tree
 	void buildTree();
+	void buildTreeSS();
+	void buildTreeMSS();
+	void buildTreeBlock();
+
 	
 	//find encoding from tree
 	void generateEncoding();
 
 
 	//encode file text
-	void encode();
+	void encoder(node* n,string code);
+	//edited this line - alia
+
+
 
 
 	//statistics
@@ -59,8 +69,8 @@ public:
 	void runTwoBlock(string path = "source.txt");
 
 	void runAll(string path = "source.txt");
-
-	void decode(string path = "dec.txt");
+	void encode(string path = "enc.txt");
+	void decode(string writePath = "dec.txt", string readPath = "enc.txt");
 
 
 	HuffmanEncoder();
