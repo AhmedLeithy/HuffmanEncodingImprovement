@@ -69,8 +69,8 @@ public:
 	void runTwoBlock(string path = "source.txt");
 
 	void runAll(string path = "source.txt");
-	void encode(string path = "enc.txt");
-	void decode(string writePath = "dec.txt", string readPath = "enc.txt");
+	void encode(string path = "enc.bin");
+	void decode(string writePath = "dec.txt", string readPath = "enc.bin");
 
 
 	HuffmanEncoder();

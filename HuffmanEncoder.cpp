@@ -5,6 +5,7 @@
 #include "HuffmanEncoder.h"
 #include "FileHandler.h"
 #include "tree.h"
+#include <bitset>
 using namespace std;
 
 //INITIALIZATION
@@ -153,7 +154,10 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 		sum += i.second.length() * singleSymbolFrequencies[i.first[0]];
 	}
 
-	char* encText = new char[sum];
+	int addedZeroes = (8 - sum % 8) % 8;
+
+
+	char* encText = new char[sum+addedZeroes+8];
 	int cursor = 0;
 
 	for(int i=0; i<l;i++)
@@ -172,7 +176,30 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 		if (i % 50000 == 0)
 			cout << i << endl;
 	}
-	string encFile = string(encText).substr(0,sum);
+
+
+	//cout << "starting adding zeroes\n";
+
+	for (int i = 0; i < addedZeroes; i++) {
+		//cout << encText << endl;
+
+		encText[cursor] = '0';
+		cursor++;
+	}
+	 
+	string bs = bitset<8> (addedZeroes).to_string();
+
+
+	//cout << "starting adding bs";
+	for (int i = 0; i < 8; i++) {
+
+		//cout << encText << endl;
+		encText[cursor] = bs[i];
+		cursor++;
+	}
+	//cout << encText << endl;
+
+	string encFile = string(encText).substr(0,sum+addedZeroes+8);
 	FileHandler::writeEncoding(path, &encFile); 
 }
 
@@ -196,7 +223,7 @@ void HuffmanEncoder::decode(string writePath, string readPath)
 	//ok so we traverse the tree until we hit a leaf and that gives us the symbol
 
 	string encText;
-	FileHandler::readFile(readPath, &encText);
+	FileHandler::readEncoding(readPath, &encText);
 
 	node* cursor = t.root;
 	
@@ -223,7 +250,7 @@ void HuffmanEncoder::decode(string writePath, string readPath)
 	}
 
 	string s = string(decText).substr(0,position);
-	FileHandler::writeEncoding(writePath, &s);
+	FileHandler::writeFile(writePath, &s);
 }
 
 //DEBUGGING
