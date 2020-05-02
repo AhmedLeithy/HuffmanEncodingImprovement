@@ -37,10 +37,17 @@ void FileHandler::writeEncoding(std::string& path, std::string* encodedMessage)
 	int byteStart = 0;
 
 	while(byteStart<(*encodedMessage).size()-1){
-		bitset<8> temp((*encodedMessage).substr(byteStart, 8));
-		//cout << temp.to_ulong();
-		writer << char(temp.to_ulong());
-		byteStart += 8;
+
+		try {
+			bitset<8> temp((*encodedMessage).substr(byteStart, 8));
+			//cout << temp.to_ulong();
+			writer << char(temp.to_ulong());
+			byteStart += 8;
+		}
+		catch(exception e){
+			cout << e.what() <<endl;
+			cout << (*encodedMessage).substr(byteStart, 8);
+		};
 	}
 
 	writer.close();

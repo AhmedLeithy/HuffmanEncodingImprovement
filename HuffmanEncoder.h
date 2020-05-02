@@ -2,6 +2,9 @@
 #include <string>
 #include <unordered_map> // changed that to unordered_map
 #include "tree.h"
+#include "node.h"
+#include <queue>
+
 using namespace std;
 #define debug 0
 
@@ -24,9 +27,9 @@ class HuffmanEncoder
 	int singleSymbolFrequencies[256];	  //[a][b][c][d]
 	int blockSymbolFrequencies[256][256]; //[ab][cd]
 	int twoSymbolFrequencies[256][256];   //[a{b](c}d)
-
 	int numberOfSymbols;
 	
+
 	void initStructures(string& path);
 	
 	
@@ -38,6 +41,8 @@ class HuffmanEncoder
 
 	//build Tree
 	void buildTree();
+	void buildTreeStructure(priority_queue<node, vector<node>, greater<node>> &q);
+
 	void buildTreeSS();
 	void buildTreeMSS();
 	void buildTreeBlock();
@@ -49,7 +54,6 @@ class HuffmanEncoder
 
 	//encode file text
 	void encoder(node* n,string code);
-	//edited this line - alia
 
 
 
