@@ -11,3 +11,13 @@ node tree::combineNodes(node& left, node& right)
 
 	return *returned;
 }
+
+void tree::deleteNode(node* ptr) {
+	deleteNode(ptr->left);
+	deleteNode(ptr->right);
+	delete ptr;
+}
+
+tree::~tree() {
+	deleteNode(root);
+}

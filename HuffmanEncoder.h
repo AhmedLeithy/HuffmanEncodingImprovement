@@ -17,6 +17,11 @@ class HuffmanEncoder
 	2 = 2 block encoding
 	*/
 
+	int encodeTable = 1;
+	/*
+	Should the tree encoded? 
+	*/
+
 	unordered_map<string, string> encodingMap;
 
 	string* fileText = new string();
@@ -42,11 +47,12 @@ class HuffmanEncoder
 	//build Tree
 	void buildTree();
 	void buildTreeStructure(priority_queue<node, vector<node>, greater<node>> &q);
-
 	void buildTreeSS();
 	void buildTreeMSS();
 	void buildTreeBlock();
-
+	void encodeTree(string & encodedTable); //Encodes 
+	void decodeTree(string & file); //Reconstructs tree from string
+	void insertCodingIntoTree(string coding, string symbol);
 	
 	//find encoding from tree
 	void generateEncoding();

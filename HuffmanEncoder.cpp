@@ -111,18 +111,44 @@ void HuffmanEncoder::buildTreeSS()
 	//tree t;
 	buildTreeStructure(queue);
 }
+struct bigram{
+	int i, j, frequency;
+	
+	bigram(int ii, int ji, int freq) {
+		i = ii;
+		j = ji;
+		frequency = freq;
+	}
+	bigram(const bigram& b) {
+		i = b.i;
+		j = b.j;
+		frequency = b.frequency;
+	}
+
+	bigram() {}
+
+	bool operator<(const bigram& right) const {
+		return frequency < right.frequency;
+	}
+
+	bool operator>(const bigram& right) const {
+		return frequency > right.frequency;
+	}
+};
 
 void HuffmanEncoder::buildTreeMSS()
 {
 	priority_queue<node, vector<node>, greater<node>> queue;
 
+	priority_queue<bigram> bigramQueue;
 
 	for (int i = 0; i < 256; i++)
 		for (int j = 0; j < 256; j++) 
 		{
 			if (twoSymbolFrequencies[i][j]) 
 			{
-
+				bigram bi = bigram(i, j, twoSymbolFrequencies[i][j]);
+				bigramQueue.push(bi);
 				/*
 				- criteria AVERAGE
 				- manual thresholds
@@ -137,9 +163,12 @@ void HuffmanEncoder::buildTreeMSS()
 				ciel(-log(p1p2)) < ciel(-log(p1)) + codelength(p2)
 
 				*/
+				/*
 				float n = (*fileText).length();
 				if (
-					ceil(log2(twoSymbolFrequencies[i][j]/(n-1))) < ceil(log2(singleSymbolFrequencies[i] / n)) +ceil(log2(singleSymbolFrequencies[j] /n))
+					ceil(-log2(twoSymbolFrequencies[i][j]/(n-1))) < ceil(-log2(singleSymbolFrequencies[i] / n)) +ceil(-log2(singleSymbolFrequencies[j] /n))
+					//&& singleSymbolFrequencies[i] >= twoSymbolFrequencies[i][j]
+					//&& singleSymbolFrequencies[j] >= twoSymbolFrequencies[i][j]
 					)
 				{
 					string c1 = string(1, char(i));
@@ -148,19 +177,62 @@ void HuffmanEncoder::buildTreeMSS()
 
 					node temp = node(symbolName, twoSymbolFrequencies[i][j]);
 					queue.push(temp);
+
+					int initialSingle = singleSymbolFrequencies[i];
+					int initialSingle2 = singleSymbolFrequencies[j];
+					int twosymbol = twoSymbolFrequencies[i][j];
 					
 					singleSymbolFrequencies[i] -= twoSymbolFrequencies[i][j];
 					singleSymbolFrequencies[j] -= twoSymbolFrequencies[i][j];
 					
-					/*
-					if this two symbol is included, then the frequency each 
-					letter must be reduced by the frequency of the combination
-					*/
+					if (singleSymbolFrequencies[i] < 0 || singleSymbolFrequencies[j] < 0) {
+						int x = 2;
+					}
+					
+					//if this two symbol is included, then the frequency each 
+					//letter must be reduced by the frequency of the combination
+					
 				}
+			*/
 
 			}
 		}
+	float n = (*fileText).length();
 
+	while (!bigramQueue.empty()) {
+		bigram maxFreq = bigramQueue.top();
+		bigramQueue.pop();
+
+		if (
+			ceil(-log2(maxFreq.frequency / (n - 1))) < (ceil(-log2(singleSymbolFrequencies[maxFreq.i] / n)) + ceil(-log2(singleSymbolFrequencies[maxFreq.j] / n)))
+			&& singleSymbolFrequencies[maxFreq.i] >= maxFreq.frequency
+			&& singleSymbolFrequencies[maxFreq.j] >= maxFreq.frequency
+			)
+		{
+			string c1 = string(1, char(maxFreq.i));
+			string c2 = string(1, char(maxFreq.j));
+			string symbolName = c1 + c2;
+
+			node temp = node(symbolName, maxFreq.frequency);
+			queue.push(temp);
+
+			int initialSingle = singleSymbolFrequencies[maxFreq.i];
+			int initialSingle2 = singleSymbolFrequencies[maxFreq.j];
+
+			singleSymbolFrequencies[maxFreq.i] =  maxFreq.frequency > initialSingle ? 0 : initialSingle - (maxFreq.frequency/2.0);
+			singleSymbolFrequencies[maxFreq.j] =  maxFreq.frequency > initialSingle2 ? 0 : initialSingle2 - (maxFreq.frequency/2.0);
+
+			//if this two symbol is included, then the frequency each 
+			//letter must be reduced by the frequency of the combination
+		}
+	}
+
+
+
+
+	operationMode = 0;
+	printNonZeroFrequencies();
+	operationMode = 1;
 
 	for (int i = 0; i < 256; i++)
 		if (singleSymbolFrequencies[i]) 
@@ -196,6 +268,160 @@ void HuffmanEncoder::buildTreeBlock()
 
 	//tree t;
 	buildTreeStructure(queue);
+}
+
+void HuffmanEncoder::encodeTree(string & encodedTable)
+{	
+	/*
+	char* decText = (char*)malloc(sizeof(char) * (20000 + 1));
+	int size = 20000;
+
+				if (position > size - 1)
+				{
+					size = size + 50000;
+					decText = (char*)realloc(decText, sizeof(char) * (size + 1));
+				}
+	*/
+
+	/*
+		NumberOfRows in two bytes
+
+		each row:
+		A) 1 bit saying whether bigram
+		B) 2 bytes for length of encoding because (log2(256*256)) in the worst case tree. (right right right etc.)
+		C) 1 byte for char 1
+		D) 1 byte for char2 (if A == 1)
+		E) Encoding
+	*/
+
+	char* encodedTableArr = (char*)malloc(sizeof(char) * (5000 + 1));
+	int size = 5000;
+	int cursor = 16;
+
+	string rows = bitset<16>(encodingMap.size()).to_string();
+	if (operationMode == 1) {
+		
+	} else if (operationMode == 2)
+
+	for (int i = 0; i < 16; i++) {
+		encodedTableArr[i] = rows[i];
+	}
+
+	for (auto i : encodingMap) {
+		unsigned char bigram = i.first.length() == 1 ? '0' : '1';
+		string codingLength = bitset<16>(i.second.length()).to_string();
+		string char1  =  bitset<8>(int(i.first[0])).to_string();
+		string char2;
+		if(bigram == '1')
+			char2 = bitset<8>(int(i.first[1])).to_string();
+		
+
+
+		if (cursor > size - 1) {
+			size = size + 2000;
+			encodedTableArr = (char*)realloc(encodedTableArr, sizeof(char) * (size + 1));
+		}
+
+		encodedTableArr[cursor] = bigram;
+		cursor++;
+
+
+		for (int j = 0; j < 16; j++) {
+			if (cursor > size - 1) {
+				size = size + 2000;
+				encodedTableArr = (char*)realloc(encodedTableArr, sizeof(char) * (size + 1));
+			}
+			encodedTableArr[cursor] = codingLength[j];
+			cursor++;
+		}
+
+		for (int j = 0; j < 8; j++) {
+			if (cursor > size - 1) {
+				size = size + 2000;
+				encodedTableArr = (char*)realloc(encodedTableArr, sizeof(char) * (size + 1));
+			}
+			encodedTableArr[cursor] = char1[j];
+			cursor++;
+		}
+
+		if (bigram == '1') {
+			for (int j = 0; j < 8; j++) {
+				if (cursor > size - 1) {
+					size = size + 2000;
+					encodedTableArr = (char*)realloc(encodedTableArr, sizeof(char) * (size + 1));
+				}
+				encodedTableArr[cursor] = char2[j];
+				cursor++;
+			}
+		}
+
+		for (int j = 0; j < i.second.length(); j++) {
+			if (cursor > size - 1) {
+				size = size + 2000;
+				encodedTableArr = (char*)realloc(encodedTableArr, sizeof(char) * (size + 1));
+			}
+			encodedTableArr[cursor] = i.second[j];
+			cursor++;
+		}
+	}
+
+	encodedTable = string(encodedTableArr).substr(0,cursor);
+}
+
+void HuffmanEncoder::decodeTree(string& file)
+{
+	encodingMap.clear();
+	t.~tree;
+
+	int rows = int(bitset<16>(file.substr(0, 16)).to_ulong);
+
+	int cursor = 16;
+	/*
+		each row:
+		A) 1 bit saying whether bigram
+		B) 2 bytes for length of encoding because (log2(256*256)) in the worst case tree. (right right right etc.)
+		C) 1 byte for char 1
+		D) 1 byte for char2 (if A == 1)
+		E) Encoding
+	*/
+
+	for (int i = 0; i < rows; i++) {
+		bool bigram = file[cursor] == '1';
+		cursor++;
+		int length = int(bitset<16>(file.substr(cursor, 16)).to_ulong());
+		cursor += 16;
+
+		string symbol;
+		char char1 = char(bitset<8>(file.substr(cursor, 8)).to_ulong());
+		cursor += 8;
+		char char2;
+		
+		symbol += char1;
+
+		if (bigram) {
+			char2 = char(bitset<8>(file.substr(cursor, 8)).to_ulong());
+			cursor += 8;
+			symbol += char1;
+		}
+
+		string encoding = file.substr(cursor, length);
+
+		encodingMap[symbol] = encoding;
+	}
+
+	for (auto i : encodingMap) {
+		insertCodingIntoTree(i.second, i.first);
+	}
+
+}
+
+void HuffmanEncoder::insertCodingIntoTree(string coding, string symbol) {
+	node* cursor = t.root;
+
+	for (int i; i < symbol.length(); i++) {
+
+	
+	}
 }
 
 void HuffmanEncoder::initStructures(string& path)
@@ -382,7 +608,17 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 	//cout << encText << endl;
 
 
-	string encFile = string(encText).substr(0,sum+addedZeroes+8);
+	string encFile = string(encText).substr(0,cursor);
+
+
+
+	if (encodeTable) {
+		string encodedTable = "";
+		encodeTree(encodedTable);
+		encFile = encodedTable+ encFile ;
+
+	}
+
 	FileHandler::writeEncoding(path, &encFile); 
 }
 
@@ -406,6 +642,10 @@ void HuffmanEncoder::decode(string writePath, string readPath)
 
 	string encText;
 	FileHandler::readEncoding(readPath, &encText);
+
+	if (encodeTable) {
+		decodeTree(encText);
+	}
 
 	node* cursor = t.root;
 	

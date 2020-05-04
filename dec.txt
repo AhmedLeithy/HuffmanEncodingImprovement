@@ -1,4 +1,4 @@
-####-SPECIAL NOTE: 
+####-SCIAL NOT: 
 
  
 In this reprint several minor inaccuracies, most of them noted by readers, have 
@@ -39,7 +39,7 @@ people for many miles round called  it - and many little round doors opened out 
 it,  first  on  one  side  and  then  on  another.  No  going  upstairs  for  the  hobbit: 
 bedrooms,  bathrooms,  cellars,  pantries  (lots  of  these),  wardrobes  (he  had  whole 
 rooms devoted to clothes), kitchens, dining-rooms, all were on the same floor, and 
-indeed  on  the  same  passage. The  best  rooms were  all  on  the  left-hand side (going 
+indeed  on  the  same  passage. The  best  rooms were  all  on  the  left-hand side going 
 in),  for  these  were  the  only  ones  to  have  windows,  deep-set  round  windows 
 looking over his garden and meadows beyond, sloping down to the river.  
 This  hobbit  was  a  very  well-to-do  hobbit,  and  his  name  was  Baggins.  The 
@@ -49,7 +49,7 @@ but  also  because  they  never had  any  adventures or did  anything unexpected
 could tell what a Baggins would say on any question without the bother of asking 
 him. This  is a story of how a Baggins had an adventure,  found himself doing and 
 saying things altogether unexpected. He may have lost the neighbours' respect, but 
-he gained-well, you will see whether he gained anything in the end.
+he gained-well, you will see whether he gained anything in the end
 The  mother  of  our  particular  hobbit  _  what  is  a  hobbit?  I  suppose  hobbits 
 need  some description nowadays,  since  they have become  rare  and  shy of the Big 
 People,  as  they  call  us.  They  are  (or  were)  a  little  people,  about  half  our  height, 
@@ -242,7 +242,7 @@ The  poor  little  hobbit  sat  down  in  the  hall  and  put  his  head  in  hi
 wondered  what  had  happened,  and  what  was  going  to  happen,  and  whether  they 
 would all stay  to supper. Then  the bell rang again  louder  than ever, and he had  to 
 run  to  the  door.  It  was  not  four  after  all,  t  was  FIVE.  Another  dwarf  had  come 
-along while he was wondering in the hall. He had hardly turned the knob, be-x)re 
+along while he was wondering in the hall. He had hardly turned the knob, be-xre 
 they were all  inside, bowing and  saying  "at your  service" one after another. Dori, 
 Nori,  Ori,  Oin,  and  Gloin  were  their  names;  and  very  soon  two  purple  hoods,  a 
 
@@ -525,7 +525,7 @@ when  Bilbo  tried  to  open  his  mouth  to  ask  a  question,  he  turned  and
 him and stuck oat his bushy eyebrows, till Bilbo shut his mouth tight with a snap. 
 
 ####-"That's  right,"  said  Gandalf.  "Let's  have  no  more  argument.  I  have  chosen  Mr. 
-Baggins  and  that  ought  to  !6te  enough  for  all  of  you.  If  I  say  he  is  a  Burglar,  a 
+Baggins  and  that  ought  to  te  enough  for  all  of  you.  If  I  say  he  is  a  Burglar,  a 
 Burglar he is, or will be when the time comes. There is a lot more in him than you 
 guess,  and  a  deal  more  than  he  has  any  idea  of  himself.  You  may  (possibly)  all 
 live to thank me yet. Now Bilbo, my boy, fetch the lamp, and let's have little light 
@@ -604,7 +604,7 @@ on  his  business  manner  (usually  reserved  for  people  who  tried  to  borr
 off him),  and doing his best  to  appear wise  and prudent  and professional  and  live 
 
 ####-up  to Gandalf's  recommendation. "Also  I  should  like  to know about  risks, out-of-
-pocket  expenses,  time  required  and  remuneration,  and  so  forth"-by  which  he 
+pocket  expenses,  time  required  and  remuneration,  and  so  fort"-by  which  he 
 meant: "What am I going to get out of it? and am I going to come back alive?" 
 "O  very  well,"  said  Thorin.  "Long  ago  in  my  grandfather  Thror's  time  our 
 family  was  driven  out  of  the  far  North,  and  came  back  with  all  their  wealth  and 
@@ -735,7 +735,7 @@ To find our long-forgotten gold.
 Bilbo went  to  sleep with  that  in  his  ears,  and  it  gave  him  very  uncomfortable 
 dreams. It was long after the break of day, when he woke up. 
 
-####-Chapter 2
+####-Chapter 
 <br>
 Roast Mutton 
 <br>
@@ -747,7 +747,7 @@ every pot and pan he possessed seemed to have been used. The washing-up was so
 dismally real that Bilbo was forced to believe the party of the night before had not 
 been part of his bad dreams, as he had rather hoped. Indeed he was really relieved 
 after  all  to  think  that  they  had  all  gone  without  him,  and  without  bothering  to 
-wake him up ("but with never a thank-you" he thought); and yet in a way he could 
+wake him up "but with never a thank-you" he thought); and yet in a way he could 
 not help feeling just a trifle disappointed. The feeling surprised him. 
 "Don't be a fool, Bilbo Baggins!" he said  to himself, "thinking of dragons  and 
 all  that  outlandish  nonsense  at  your  age!"  So  be  put  on  an  apron,  lit  fires,  boiled 
@@ -780,7 +780,7 @@ our representatives, if occasion arises and the matter is not otherwise arranged
 for. 
 "Thinking  it  unnecessary  to  disturb  your  esteemed  repose,  we  have 
 proceeded  in  advance  to  make  requisite  preparations,  and  shall  await  your 
-respected person at the Green Dragon Inn, Bywater, at II a.m. sharp. Trusting 
+respected person at the Green Dragon Inn, Bywater, at II am. sharp. Trusting 
 that you will be punctual. 
  
 "We have the honour to remain 
@@ -1290,7 +1290,7 @@ them  so.  They  were  elves  of  course.  Soon  Bilbo  caught  glimpses  of  th
 darkness deepened. He loved elves, though he seldom met them; but he was a little 
 frightened of  them  too. Dwarves don't get on well with  them. Even decent enough 
 dwarves  like  Thorin  and  his  friends  think  them  foolish  (which  is  a  very  foolish 
-thing to think), or get annoyed with them. For some elves tease them and laugh at 
+thing to thin), or get annoyed with them. For some elves tease them and laugh at 
 them, and most of all at their beards. 
 "Well,  well!"  said  a  voice.  "Just  look!  Bilbo  the  hobbit  on  a  pony,  my  dear! 
 Isn't it delicious!" 
@@ -1448,7 +1448,7 @@ gloomy  thoughts,  although  when  they  had  said  good-bye  to  Elrond  in  th
 hope  of  a  midsummer  morning,  they'  had  spoken  gaily  of  the  passage  of  the 
 mountains,  and  of  riding  swift  across  the  lands  beyond.  They  had  thought  of 
 coming  to  the  secret  door  in  the  Lonely  Mountain,  perhaps  that  very  next  first 
-moon  of  Autumn-"  and  perhaps  it  will  be  Durin's  Day"  they  had  said.  Only 
+moon  of  Autumn-"  and  perhaps  it  will  be  Durin's  Da"  they  had  said.  Only 
 Gandalf had  shaken his head  and  said nothing. Dwarves had not passed  that way 
 for  many  years,  but  Gandalf  had,  and  he  knew  how  evil  and  danger  had  grown 
 and  thriven  in  the Wild, since  the dragons had driven men from the lands, and the 
@@ -1585,7 +1585,7 @@ Below, my lad!
 It  sounded  truly  terrifying. The walls  echoed  to  the  clap,  snap!  and  the  crush, 
 smash!  and  to  the  ugly  laughter  of  their  ho,  ho! my  lad! The  general meaning  of 
 the song was only too plain; for now the goblins took out whips and whipped them 
-with  a  swish,  smack!,  and set them running as fast as they could in front of them; 
+with  a  swish,  smack,  and set them running as fast as they could in front of them; 
 and  more  than  one  of  the  dwarves  were  already  yammering  and  bleating  like 
 anything, when they stumbled into a big cavern. 
 It was  lit by a great red fire  in  the middle, and by  torches along  the walls, and 
@@ -2435,7 +2435,7 @@ hood to you." Which he did.
 "Your servant, Mr. Baggins," said Bilbo. 
 Then  they  wanted  to  know  all  about  his  adventures  after  they  had  lost  him, 
 and  he  sat  down  and  told  them  everything-except  about  the  finding  of  the  ring 
-("not  just  now"  he  thought).  They  were  particularly  interested  in  the  riddle-
+("not  just  no"  he  thought).  They  were  particularly  interested  in  the  riddle-
 competition, and shuddered most appreciatively at his description of Gollum. 
 "And  then  I  couldn't  think  of  any  other  question with  him  sitting  beside me," 
 ended Bilbo; "so I said  'what's in my pocket?' And he couldn't guess in three goes. 
@@ -2507,7 +2507,7 @@ still pretty high up. Let's get on!"
 had  not  had  a meal  since  the  night  before  the  night  before  last.  Just  think  of  that 
 for  a  hobbit!  His  stomach  felt  all  empty  and  loose  and  his  legs  all  wobbly,  now 
 that the excitement was over.  
-"Can't  help  it,"  said Gandalf,  "unless  you  like  to  go  back  and  ask  the  goblins 
+"Can't  help  it,"  said Gandalf,  unless  you  like  to  go  back  and  ask  the  goblins 
 nicely to let you have your pony back and your luggage." 
 "No thank you!" said Bilbo. 
 "Very well  then, we must  just  tighten our belts  and  trudge on  - or  we shall be 
@@ -2596,7 +2596,7 @@ edge  of  the  glade. He was  quite  hidden  in  its  boughs,  but  you  could  
 gleaming in the moon as he peeped out. 
 And Bilbo? He could not get into any tree, and was scuttling about from trunk 
 to trunk, like a rabbit that has lost its hole and has a dog after it. 
-"You've left the burglar behind again}" said Nori to Dori looking down. 
+"You've left the burglar behind again" said Nori to Dori looking down. 
 "I  can't  be  always  carrying  burglars  on  my  back,"  said  Dori,  "down  tunnels 
 and up trees! What do you think I am? A porter?" 
 "He'll be eaten if we don't 'do something," said Thorin, for there were howls all 
@@ -2809,7 +2809,7 @@ Soon the light of the burning was faint below, a red twinkle on the black floor;
 and  they  were  high  up  in  the  sky,  rising  all  the  time  in  strong  sweeping circles. 
 
 ####-Bilbo  never  forgot  that  flight,  clinging  onto Dori's  ankles. He moaned  "my  arms, 
-my arms!"; but Dori groaned "my poor legs, my poor legs!" 
+my arms!; but Dori groaned "my poor legs, my poor legs!" 
 At  the  best  of  times  heights  made  Bilbo  giddy.  He  used  to  turn  queer  if  he 
 looked over the edge of quite a little cliff; and he had never liked ladders, let alone 
 trees  (never  having  had  to  escape  from wolves  before).  So  you  can  imagine  how 
@@ -3192,7 +3192,7 @@ impression,  "I  did  the  best  I  could.  There  we  were  with  the  wolves  
 
 ####-underneath us  and  the  forest beginning  to blaze  in places, when  the goblins  came 
 down  from  the  hills  and  discovered  us.  They  yelled  with  delight  and  sang  songs 
-making fun of us. Fifteen birds in five fir-trees_" 
+making fun of us. Fifteen birds in five fir-trees" 
 "Good heavens!" growled Beorn. "Don't pretend that goblins can't count. They 
 can. Twelve isn't fifteen and they know it." 
 "And  so  do  1.  There  were  Bifur  and  Bofur  as  well.  I  haven't  ventured  to 
@@ -3588,7 +3588,7 @@ won't come with us, you had better get off without any more talk!"
 and  rode  down  into  the West.  But  he  could  not  resist  the  temptation  to  have  the 
 last word. Before he had passed quite out of hearing he turned and put his hands to 
 his mouth  and  called  to  them. They  heard  his  voice  come  faintly:  "Good-bye! Be 
-good, take care of yourselves-and DON'T LEAVE THE PATH!" 
+good, take care of yourselves-and DO'T LEAVE THE PATH!" 
 Then he galloped away and was soon lost to sight. "O good-bye and go away!" 
 grunted  the  dwarves,  all  the  more  angry  because  they  were  really  filled  with 
 dismay at losing him. Now began the most dangerous part of all the journey.  
@@ -3811,7 +3811,7 @@ were in a valley filled almost entirely with a mighty growth of oaks.
 "Somebody must climb a tree and see if he can get his head above the roof and 
 have  a  look  round.  The  only  way  is  to  choose  the  tallest  tree  that  overhangs  the 
 path." 
-Of course "somebody" meant Bilbo. They chose him because  to be of any use 
+Of course "somebod" meant Bilbo. They chose him because  to be of any use 
 the  climber  must  get  his  head  above  the  topmost  leaves,  and  so  he must  be  light 
 enough for the highest and slenderest branches to bear him. Poor Mr. Baggins had 
 never had much practice in climbing trees, but they hoisted him up into the lowest 
@@ -4054,7 +4054,7 @@ have to be sure, but I'll wager there is good juice inside."
 ####-"Aye, they'll make fine eating, when they've hung a bit," said another.  
 "Don't  hang  'em  too  long,"  said  a  third.  "They're  not  as  fat  as  they might  be. 
 Been feeding none too well of late, I should guess." 
-"Kill'em, I say," hissed a fourth; "kill 'em now and hang 'em dead for a while." 
+"Kill'em, I say," hissed a fourth; kill 'em now and hang 'em dead for a while." 
 "They're dead now, I'll warrant," said the first. 
 "That they are not. I saw one a-struggling just now. Just coming round again, I 
 should say, after a bee-autiful sleep. I'll show you." 
@@ -6133,7 +6133,7 @@ doors, that hung twisted on their hinges and half burnt.
 "This  is  the  great  chamber  of Thror,"  said Thorin; "the hall of  feasting and of 
 council. Not far off now is the Front Gate." 
 They passed through the ruined chamber. Tables were rotting there; chairs and 
-benches were lying there overturned, charred and decaying. Skulls and bones were 
+benches were lying there overturned, charred and decaying. kulls and bones were 
 upon  the  floor  among  flagons  and  bowls  and  broken  drinking-horns and dust. As 
 they  came  through  yet more  doors  at  the  further  end,  a  sound  of  water  fell  upon 
 their ears, and the grey light grew suddenly more full. 
@@ -6890,7 +6890,7 @@ arrive there may be serious trouble."
 threatening us?" asked Bard grimly.  
 "My  dear  Bard!"  squeaked  Bilbo.  "Don't  be  so  hasty!  I  never  met  such 
 suspicious folk! I am merely trying to avoid trouble for all concerned. Now I will 
-make you an offer!!" 
+make you an offer!" 
 "Let us hear it!" they said. 
 "You may  see  it!"  said  he.  "It  is  this!"  and  he  drew  forth  the Arkenstone,  and 
 threw away the wrapping. 
@@ -7019,7 +7019,7 @@ Gandalf. "But things may change yet."
 
 ####-"They may indeed," said Thorin. And already, so strong was the bewilderment 
 of  the  treasure upon him, he was pondering whether by the help of Dain he might 
-not recapture the Arkenstone and withhold the share of the reward. 
+not recapture the Arkenstone and withold the share of the reward. 
 And  so  Bilbo  was  swung  down  from  the  wall,  and  departed  with  nothing  for 
 all his trouble, except the armour which Thorin had given him already. More than 
 one of the dwarves 'in their hearts felt shame and pity at his going. 
@@ -7299,7 +7299,7 @@ host.
 When Gandalf saw Bilbo, he was delighted. "Baggins!" he exclaimed. "Well I 
 never! Alive after all - 1 am glad! I began to wonder if even your luck would see 
 you through! A terrible business, and it nearly was disastrous. But other news can 
-wait. Come!" he said more gravely. "You are called for;" and leading the hobbit he 
+wait. Come!" he said more gravely. "You are called for" and leading the hobbit he 
 took him within the tent. 
 "Hail! Thorin," he said as he entered. "I have brought him." 
 There  indeed  lay  Thorin  Oakenshield,  wounded  with  many  wounds,  and  his 
@@ -7418,7 +7418,7 @@ indeed be splendid!"
 "If  ever  you  are  passing my way,"  said Bilbo,  "don't wait  to  knock!  Tea  is  at 
 four; but any of you are welcome at any time!" 
 Then he turned away.  
-The  elf-host  was  on  the  march;.  and  if  it  was  sadly  lessened,  yet  many  were 
+The  elf-host  was  on  the  march.  and  if  it  was  sadly  lessened,  yet  many  were 
 glad,  for  now  the  northern  world  would  be  merrier  for  many  a  long  day.  The 
 dragon  was  dead,  and  the  goblins  overthrown,  and  their  hearts  looked  forward 
 after winter  to  a  spring  of  joy. Gandalf  and Bilbo  rode behind the Elvenking, and 
@@ -7812,7 +7812,7 @@ Book IV
      Chapter 4   The Siege of Gondor  
      Chapter 5   The Ride of the Rohirrim   
      Chapter 6   The Battle of the Pelennor Fields  
-     Chapter 7   The Pyre of Denethor  
+     Chapter 7   The yre of Denethor  
      Chapter 8   The Houses of Healing   
      Chapter 9   The Last Debate   
      Chapter 10  The Black Gate Opens  
@@ -7840,7 +7840,7 @@ first  to complete and set in  order the mythology and  legends of the Elder
 Days, which had then been taking shape for some years. I desired to do  this 
 for my own satisfaction,  and  I had little hope that other people would  be 
 interested  in  this work, especially  since it was primarily  linguistic in 
-inspiration and  was begun  in order to provide  the necessary background of 
+inspiration and  was begun  in order to provide  the necessary bacground of 
 'history' for Elvish tongues. 
      When  those  whose advice and opinion I sought corrected little hope to 
 no hope, I went back to the sequel, encouraged by  requests from readers for  
@@ -7856,7 +7856,7 @@ glimpses and of  their relation to  the ancient histories revealed the Third
 Age and its culmination in the War of the Ring. 
      Those who  had asked for  more information about hobbits eventually got  
 it, but they had to wait a long time; for the composition of The Lord of the 
-Rings went on at intervals during the  years 1936 to 1949, a period in which  
+Rings went on at intervals during the  years 1936 to 199, a period in which  
 I had  many  duties that  I did not neglect, and  many  other interests as a  
 learner and teacher  that often absorbed  me. The delay was, of course, also 
 increased by the outbreak of war in 1939, by the end of which  year the tale 
@@ -7874,7 +7874,7 @@ failed and there was no time for thought.
 war which it was my task to  conduct, or at least to report, 1 forced myself 
 to tackle the journey of Frodo  to  Mordor.  These chapters,  eventually  to 
 become  Book Four,  were  written  and  sent  out  as  a  serial  to my son, 
-Christopher, then in South Africa with the RAF.  Nonetheless it took another 
+Christopher, then in South Africa with the RA.  Nonetheless it took another 
 five  years before the tale was brought to its present end;  in that  time I 
 changed my house, my chair,  and my college,  and the days though  less dark 
 were no less laborious.  Then when the 'end' had  at last  been reached  the 
@@ -7943,7 +7943,7 @@ personally to come under the shadow of war to feel fully its oppression; but
 as the years go by it seems now often forgotten that to  be caught  in youth 
 
 ####-by  1914 was no less hideous an experience  than to  be involved in 1939 and 
-the  following years. By 1918 all but one of my close  friends were dead. Or  
+the  following years. By 118 all but one of my close  friends were dead. Or  
 to  take  a less grievous  matter:  it  has been supposed by some  that 'The 
 Scouring of  the Shire' reflects the situation in England at the time when I 
 was finishing  my tale. It does  not. It is an  essential  part of the plot, 
@@ -7977,7 +7977,7 @@ the  material  prepared  for  me  by Mrs.  N. Smith,  belongs  rather to the
 accessory volume. 
  
 
-####-* PROLOGUE * 
+####-* PRLOGUE * 
 
  
  
@@ -8138,7 +8138,7 @@ all other bridges  and roads,  speed the king's messengers, and  acknowledge
 his lordship. 
      Thus began  the Shire-reckoning, for the year  of  the  crossing of the 
 Brandywine (as the  Hobbits turned the name) became  Year One  of the Shire, 
-and all later dates were reckoned from it.2 At once the western Hobbits fell 
+and all later dates were reckoned from it2 At once the western Hobbits fell 
 in love with their new land, and they  remained there, and soon passed  once 
 more out  of the history  of Men and of Elves. While there  was still a king 
 they  were in name his subjects, but they were, in  fact, ruled by their own 
@@ -8150,7 +8150,7 @@ land for their own, and they chose from their own chiefs a Thain to hold the
 authority of the king that  was  gone. There for a thousand years  they were 
 little troubled  by wars, and  they prospered and  multiplied after the Dark 
 Plague (S.R. 37) until the disaster of  the Long Winter and the famine  that 
-followed it. Many thousands then  perished, but the Days of Dearth (1158-60) 
+followed it. Many thousands then  perished, but the Days of Dearth 11-60) 
 were at the time of this  tale long past and  the Hobbits  had again  become 
 accustomed  to plenty. The land  was rich and kindly, and though it had long 
 been deserted  when they entered it,  it  had  before been  well tilled, and 
@@ -8335,8 +8335,8 @@ families, although by the time  of this  history these names were no  longer
 found only in their  proper folklands.  Nearly all Tooks  still lived in the 
 Tookland,  but that  was not  true  of  many  other  families,  such  as the 
 Bagginses  or  the Boffins.  Outside the  Farthings  were the  East and West 
-Marches:  the  Buckland  (see  beginning of Chapter  V,  Book  I);  and  the 
-Westmarch added to the Shire in S.R. 1462. 
+Marches:  the  Buckland  (see  beginning of Chapter  ,  Book  I);  and  the 
+Westmarch added to the Shire in S.R. 12. 
      The Shire at  this time had hardly any 'government'. Families  for  the 
 most part  managed their  own affairs. Growing  food and eating  it occupied  
 most of their time. In  other matters they were, as a rule, generous and not 
@@ -8528,7 +8528,7 @@ begins.
 
 ####- 
 
-NOTE ON THE SHIRE RECORDS 
+NOTE ON THE SHIRE RECORS 
 
  
  
@@ -8549,7 +8549,7 @@ the  history  of  the War  of  the Ring was so  called because it  was  long
 preserved  at  Undertowers,  the  home  of the Fairbairns,  Wardens  of  the 
 Westmarch.1  It was in origin Bilbo's private diary, which he took with  him 
 to Rivendell.  Frodo brought  it back to the Shire, together with many loose 
-leaves of notes, and during S.R. 1420-1 he nearly filled its pages  with his 
+leaves of notes, and during S.R. 142-1 he nearly filled its pages  with his 
 account of the War.  But annexed to  it  and preserved with it, probably m a  
 single red case, were  the three large  volumes, bound in  red leather, that 
 Bilbo gave  to him as a parting gift. To these four  volumes there was added  
@@ -8560,7 +8560,7 @@ made,  especially of the first volume, for the use of the descendants of the
 children  of  Master  Samwise.  The  most  important  copy, however,  has  a  
 different history.  It  was kept at  Great  Smials,  but it  was written  in 
 Condor,  probably at  the  request  of the  great-grandson  of Peregrin, and 
-completed in S.R. 1592  (F.A. 172). Its southern scribe appended this  note: 
+completed in S.R. 12  (. 172). Its southern scribe appended this  note: 
 Findegil,  King's Writer, finished this work in IV 172. It  is an exact copy 
 in  all details of the Thain's Book  m Minas Tirith.  That book was  a copy, 
 made at the request of King Elessar,  of the Red Book of the Periannath, and 
@@ -8656,8 +8656,8 @@ twenties between childhood and coming of age at thirty-three.
 combined  birthday-parties  at  Bag  End;  but  now  it  was understood that 
 something  quite  exceptional was being planned  for that autumn.  Bilbo was 
 going  to  be  eleventy -one,  111,  a  rather  curious  number  and  a  very 
-respectable  age  for a hobbit (the Old Took  himself had only reached 130); 
-and Frodo was going to be thirty- three, 33) an important number: the date of 
+respectable  age  for a hobbit (the Old Took  himself had only reached 10); 
+and Frodo was going to be thirty- three, ) an important number: the date of 
 his 'coming of age'.  
      Tongues began to wag in  Hobbiton and Bywater; and rumour of the coming 
 event travelled all  over the Shire. The  history and character of Mr. Bilbo 
@@ -8823,7 +8823,7 @@ little joke.'
      The next day more carts rolled up the Hill, and still more carts. There 
 might have  been  some grumbling about 'dealing locally', but that very week 
 orders began to pour out of Bag End for every  kind of provision, commodity, 
-or luxury  that  could be obtained in Hobbiton or Bywater or anywhere in the 
+or luury  that  could be obtained in Hobbiton or Bywater or anywhere in the 
 neighbourhood.  People  became enthusiastic; and they began to tick off  the 
 days on  the calendar; and they watched eagerly for the  postman, hoping for  
 invitations.  
@@ -8832,9 +8832,9 @@ post-office  was blocked, and the Bywater post -office  was snowed under, and
 voluntary assistant postmen were called for.  There was a constant stream of 
 them going up the Hill, carrying hundreds of polite variations on Thank you, 
 I shall certainly come. 
-     A notice appeared on the gate at Bag End: NO ADMITTANCE EXCEPT 
+     A notice appeared on the gate at Bag End: NO ADMITTANCE EXCT 
 ON PARTY 
-BUSINESS. Even those  who had, or  pretended  to  have  Party  Business were 
+BUSIESS. Even those  who had, or  pretended  to  have  Party  Business were 
 seldom allowed inside. Bilbo  was  busy:  writing invitations,  ticking  off 
 answers, packing up presents, and making  some  private preparations  of his 
 own. From the time of Gandalf's arrival he remained hidden from view.  
@@ -8883,7 +8883,7 @@ There were  three  official  meals: lunch,  tea, and dinner (or supper). But
 lunch and  tea were marked chiefly by  the fact that at  those times all the 
 guests  were sitting  down and eating together. At  other  times  there were 
 merely lots  of  people  eating and drinking  -  continuously from elevenses 
-until six-thirty, when the fireworks  started. 
+until si-thirty, when the fireworks  started. 
      The fireworks were by Gandalf: they were not only brought  by  him, but 
 designed and made by  him; and the  special effects, set pieces, and flights 
 of rockets were let off by him. But  there was  also a generous distribution 
@@ -8976,7 +8976,7 @@ splendidly. This was the sort of stuff they liked: short and obvious.
 cheers. Cries  of  Yes  (and  No). Noises  of trumpets and horns, pipes  and 
 flutes,  and  other musical instruments.  There were, as has been said, many 
 young hobbits present. Hundreds of musical crackers had been pulled. Most of 
-them bore the  mark DALE  on them; which did not  convey much to most of 
+them bore the  mark ALE  on them; which did not  convey much to most of 
 the 
 hobbits, but they all agreed they were  marvellous crackers.  They contained 
 instruments, small, but of perfect make and enchanting tones. Indeed, in one 
@@ -8999,7 +8999,7 @@ approval.
 than half of you half as well as you deserve. This was unexpected and rather  
 difficult. There  was some scattered clapping, but most of  them were trying 
 to work it out and see if it came to a compliment. 
-     Secondly,  to  celebrate my birthday.  Cheers again.  / should say: OUR 
+     Secondly,  to  celebrate my birthday.  Cheers again.  / should say: OU 
 birthday.  For it  is, of  course, also the birthday of my  heir and nephew,  
 Frodo.  He comes  of  age  and into his inheritance today. Some  perfunctory 
 clapping by the  elders;  and some loud  shouts of 'Frodo!  Frodo! Jolly old 
@@ -9020,12 +9020,12 @@ you  very  much for coming  to my little party. Obstinate  silence. They all
 feared that  a song or some poetry was now imminent;  and they  were getting 
 bored. Why couldn't he stop talking and let them drink his health? But Bilbo  
 did not sing or recite. He paused for a moment. 
-     Thirdly  and finally, he said,  I wish to make an ANNOUNCEMENT. He 
+     Thirdly  and finally, he said,  I wish to make an ANONCMENT. He 
 spoke 
 this last word so  loudly and suddenly that everyone sat up who still could. 
 I regret to announce that - though, as I said, eleventy -one years is far too 
 short a time to spend among you - this is the END. I am going. I  am leaving 
-NOW. GOOD-BYE! 
+NOW. GOO-BYE! 
      He stepped down and  vanished. There was a blinding flash of light, and 
 the guests  all blinked. When they opened their eyes Bilbo was nowhere to be 
 seen. One hundred  and forty-four flabbergasted hobbits sat back speechless.  
@@ -9043,7 +9043,7 @@ Tooks (with a few exceptions) thought  Bilbo's behaviour was absurd. For the
 moment most of  them took it for granted that his disappearance was  nothing 
 more than a ridiculous prank. 
      But old Rory Brandybuck was not  so sure. Neither age  nor an  enormous 
-dinner  had clouded his wits, and he said to his daughter -in-law, Esmeralda: 
+dinner  had clouded his wits, and he said to his daughter -in-law, Esmerald: 
 'There's something fishy in this, my dear! I believe that mad Baggins is off 
 again. Silly old fool. But why worry? He hasn't taken the vittles with him.' 
 He called loudly to Frodo to send the wine round again. 
@@ -9308,7 +9308,7 @@ come inside, as Bilbo had left 'messages' for them.
      Inside in the  hall there  was piled a large assortment of packages and 
 parcels and small articles  of furniture.  On  every item there was  a label 
 tied. There were several labels of this sort: 
-     For ADELARD TOOK, for his VERY OWN, from Bilbo, on an umbrella. 
+     For ADELARD TOOK, for his VEY OW, from Bilbo, on an umbrella. 
 Adelard 
 had carried off many unlabelled ones. 
      For  DORA BAGGINS in  memory  of  a LONG correspondence, with love 
@@ -9318,13 +9318,13 @@ surviving female  relative of Bilbo and Frodo; she was ninety-nine,  and had
 written reams of good advice for more than half a century. 
      For  MILO BURROWS,  hoping it will be  useful, from B.B., on a gold pen 
 and ink -bottle. Milo never answered letters.  
-     For ANGELICA'S use, from Uncle Bilbo, on a round convex mirror. She 
+     For ANGELIC'S use, from Uncle Bilbo, on a round convex mirror. She 
 was 
 a young Baggins, and too obviously considered her face shapely. 
-     For  the  collection  of HUGO BRACEGIRDLE,  from a  contributor,  on an 
+     For  the  collection  of HGO BRACEGIRDLE,  from a  contributor,  on an 
 (empty) book -case. Hugo was a great borrower of books, and worse than  usual 
 at returning them. 
-     For LOBELIA SACKVILLE-BAGGINS,  as  a PRESENT,  on  a  case  of  
+     For LOBELIA SCKILLE-BAGGINS,  as  a PRESENT,  on  a  case  of  
 silver 
 spoons. Bilbo  believed that  she had  acquired a good  many of  his spoons,  
 while he was away  on his former journey. Lobelia knew that quite well. When 
@@ -9385,7 +9385,7 @@ doing exceedingly well out of it. I insist on seeing the will.'
      Otho would  have been Bilbo's heir, but for  the  adoption of Frodo. He 
 read the will carefully and  snorted. It was,  unfortunately, very clear and 
 correct (according to the legal customs of hobbits, which demand among other  
-things seven signatures of witnesses in red ink). 
+things seven signatures of witnesses in red in). 
      'Foiled again!' he said  to his  wife. 'And after waiting sixty   years.  
 Spoons? Fiddlesticks!' He snapped his fingers under Frodo's nose and slumped 
 off. But Lobelia was not so easily got rid of. A little later Frodo came out 
@@ -9564,7 +9564,7 @@ countries, seeking refuge in the West. They were troubled, and some spoke in
 
 ####-whispers of the Enemy and of the Land of Mordor. 
      That name  the hobbits  only knew in legends  of the  dark past, like a  
-shadow  in  the  background  of their  memories;  but  it  was  ominous  and 
+shadow  in  the  bacground  of their  memories;  but  it  was  ominous  and 
 disquieting. It seemed that the  evil power in Mirkwood had been  driven out 
 by the White Council  only  to  reappear  in  greater  strength  in the  old 
 strongholds of Mordor. The  Dark Tower had been rebuilt,  it was  said. From 
@@ -9728,7 +9728,7 @@ uneasy.  Thin and  stretched  he  said. A  sign  that  the  ring was getting
 control.' 
      'How long have you known all this?' asked Frodo again. 
      'Known?'  said  Gandalf.  'I  have known  much that only the Wise know,  
-Frodo. But  if you mean "known about this ring", well,  I still do not know,  
+Frodo. But  if you mean known about this ring", well,  I still do not know,  
 one might say. There is a last test to make. But I no longer doubt my guess.  
      'When did I first begin to guess?' he mused, searching back  in memory. 
 'Let me see - it was in the year that the White Council drove the dark power  
@@ -10480,7 +10480,7 @@ and Green Dragon. Giants and other portents on the borders of the Shire were
 forgotten for more important matters: Mr. Frodo was  selling Bag End, indeed 
 he had already sold it - to the Sackville-Bagginses!  
      'For a nice bit, loo,' said some.  'At a bargain price,'  said  others,  
-'and that's more likely when Mistress Lobelia's  the  buyer.' (Otho had died 
+'and that's more likely when Mistress Lobeli's  the  buyer.' (Otho had died 
 some years before, at the ripe but disappointed age of 102.) 
      Just  why  Mr.  Frodo  was selling  his  beautiful hole was  even  more 
 debatable than the price. A  few held the theory - supported by the nods and  
@@ -12701,7 +12701,7 @@ complete silence fell.
      'Thank you!' said the hobbits, one after the other. 
      Tom Bombadil burst out  laughing.  'Well,  my little fellows!' said he, 
 stooping  so that he peered into their  faces. 'You shall come home with me!  
-The  table is  all laden with  yellow cream, honeycomb, and white bread  and 
+The  table is  all laden with  yellow cream, honecomb, and white bread  and 
 butter. Goldberry is  waiting. Time  enough  for questions around the supper  
 table. You follow after me as quick as you are able!' With that he picked up 
 his  lilies, and then with a beckoning  wave  of  his hand  went hopping and 
@@ -12851,7 +12851,7 @@ Goldberry, took her hand.
      'Here's my pretty  lady!'  he said,  bowing  to the hobbits. 'Here's my 
 Goldberry clothed all  in silver -green  with flowers in  her girdle! Is  the 
 
-####-table  laden? I see yellow cream and honeycomb, and white bread, and butter; 
+####-table  laden? I see yellow cream and honecomb, and white bread, and butter; 
 milk, cheese,  and green herbs and ripe berries gathered. Is that enough for  
 us? Is the supper ready?' 
      'It is,' said Goldberry; 'but the guests perhaps are not?' 
@@ -12895,7 +12895,7 @@ muster the courage to ask  one of the many questions he had meant to  ask at
 supper. Sleep gathered on their eyelids. At last Frodo spoke: 
      'Did  you  hear me calling, Master, or was  it just chance that brought 
 you at that moment?' 
-     Tom stirred like a man shaken out of a pleasant dream. 'Eh, what?' said 
+     Tom stirred like a man shaken out of a pleasant dream. 'h, what?' said 
 he. 'Did I  hear you calling?  Nay, I did not hear: I was busy singing. Just  
 chance brought  me then,  if  chance  you call it.  It was no  plan of mine, 
 though I was waiting  for you.  We heard  news of you,  and learned that you 
@@ -13701,7 +13701,7 @@ far away into dark  and danger.'  Then he told  them that these  blades were
 forged many long years ago by Men of Westernesse: they were foes of the 
 Dark 
 
-####-Lord,  but  they were overcome  by the evil king of Carn Dym in  the Land of 
+####-Lord,  but  they were overcome  by the evil king of Carn ym in  the Land of 
 Angmar . 
      'Few now remember them,' Tom murmured,  'yet  still some  go wandering, 
 sons of forgotten  kings walking in loneliness,  guarding  from  evil things 
@@ -13825,7 +13825,7 @@ Chapter 9. At the Sign of
      Bree was the chief village of  the Bree-land, a small inhabited region, 
 like an island in the empty  lands round about. Besides  Bree  itself, there 
 was Staddle on the  other side of the hill, Combe  in a deep valley a little 
-further eastward,  and  Archet  on  the  edge of  the Chetwood.  Lying round 
+further eastward,  and  Archet  on  the  edge of  the Chetwood.  ying round 
 Bree-hill and the  villages was a small country of fields and tamed woodland  
 only a few miles broad. 
      The Men of Bree were brown-haired, broad,  and  rather  short, cheerful 
@@ -13965,8 +13965,8 @@ courtyard between the two wings, and on the left under the arch there was  a
 large doorway reached by  a few  broad  steps. The  door  was open and light 
 streamed out of it. Above the arch  there was a lamp, and beneath it swung a  
 large signboard: a  fat white pony reared up on  its hind legs. Over the door 
-was painted in white letters: THE PRANCING PONY by BARLIMAN  
-BUTTERBUR. Many 
+was painted in white letters: THE PRANCING PONY by BALIMAN  
+BTTEBUR. Many 
 of the lower windows showed lights behind thick curtains.  
 
 ####-     As they hesitated outside in the gloom, someone began singing  a  merry 
@@ -14050,7 +14050,7 @@ or song you may have in mind.  But as you please! Ring the bell, if you lack
 anything!' 
      So refreshed and encouraged did  they feel at the end  of  their supper 
 (about three quarters of an hour's steady going, not hindered by unnecessary 
-talk) that Frodo, Pippin, and Sam decided to join the company. Merry said it  
+tal) that Frodo, Pippin, and Sam decided to join the company. Merry said it  
 would be too stuffy. 'I shall sit  here quietly by the fire  for  a bit, and 
 perhaps go out later for a sniff of the air. Mind your Ps and Qs, and  don't  
 forget that you are supposed to be  escaping in secret, and are still on the 
@@ -14575,7 +14575,7 @@ letter.
      'It's addressed plain enough,' said Mr.  Butterbur,  producing a letter  
 from his pocket,  and reading out the  address slowly and proudly (he valued  
 his reputation as a lettered man): 
-     Mr FRODO BAGGINS, BAG END, HOBBITON in the SHIRE. 
+     Mr FRODO BAGGINS, BAG EN, HOBBITON in the SHIRE. 
      'A letter for me from Gandalf!' cried Frodo. 
 
 ####-     'Ah!' said Mr. Butterbur. 'Then your right name is Baggins?' 
@@ -14651,7 +14651,7 @@ no word. No black man shall pass my doors, while  I can stand on my legs. Me
 and my folk'll keep watch  tonight; but you had best get some  sleep, if you  
 can.' 
      'In any case we  must be called at  dawn,' said Frodo. 'We must get off 
-as early as possible. Breakfast at six-thirty, please.' 
+as early as possible. Breakfast at si-thirty, please.' 
      'Right!  I'll see to the orders,'  said the landlord. 'Good night,  Mr. 
 
 ####-Baggins - Underhill, I should say! Good night  -  now, bless me! Where's your 
@@ -14680,7 +14680,7 @@ Road: a Man, lean, dark, tall, by some called Strider. He knows our business
 and will help you. Make for  Rivendell. There I hope we may meet again. If I  
 do not come, Elrond will advise you. 
      Yours in haste  
-     GANDALF. 
+     GANAL. 
      PS. Do NOT use It  again, not far any reason whatever! Do not travel by 
 night! 
      PPS. Make  sure that it is the real Strider. There are many strange men 
@@ -14920,7 +14920,7 @@ unsheathed.  There was a blow, soft but heavy, and the door shuddered.
 lock broken. The black figures passed swiftly in. 
      At that moment, among the trees nearby,  a  horn rang out.  It rent the 
 night like fire on a hill-top. 
-     AWAKE! FEAR! FIRE! FOES! AWAKE! 
+     AWAKE! FEAR! FIRE! OES! AWAKE! 
      Fatty Bolger had not been idle. As soon as he saw the dark shapes creep 
 from the garden, he knew that he must run for it, or perish. And run he did, 
 out  of the  back door, through  the garden,  and over the  fields.  When he 
@@ -14931,7 +14931,7 @@ At
 last they got the idea that enemies were in Buckland, some strange  invasion 
 
 ####-from the Old Forest. And then they lost no more time. 
-     FEAR! FIRE! FOES! 
+     FEA! FIRE! OES! 
      The Brandybucks were blowing  the Horn-call of  Buckland,  that had not 
 been sounded for  a hundred years, not  since the white wolves came  in  the 
 Fell Winter, when the Brandywine was frozen over. 
@@ -15361,7 +15361,7 @@ scratches are fine, and they certainly look fresh. But the  marks might mean
 something  quite  different, and have  nothing  to do  with us.  Rangers use 
 runes, and they come here sometimes.' 
      'What could they mean, even if Gandalf made them?' asked Merry 
-     'I  should say,' answered Strider, 'that they stood for G3, and  were a  
+     'I  should say,' answered Strider, 'that they stood for G, and  were a  
 sign that Gandalf was here on  October the third: that is three days ago now. 
 It would also show that he was in a hurry and danger was at hand, so that he 
 had no time or  did not dare to write anything longer or plainer. If that is 
@@ -15606,7 +15606,7 @@ speak but to chant softly:
      And arms like silver glimmering. 
  
      Long was the way that fate them bore, 
-     O'er stony mountains cold and grey, 
+     'er stony mountains cold and grey, 
      Through halls of iron and darkling door, 
      And woods of nightshade morrowless. 
      The Sundering Seas between them lay, 
@@ -16673,7 +16673,7 @@ in the Shire. But all  such places will soon  become islands under siege, if
 things  go  on  as they are going. The Dark  Lord is  putting forth all  his 
 strength. 
      `Still,' he said, standing suddenly up and sticking out his chin. while 
-his beard went  stiff and straight like bristling wire, `we must keep up our 
+his beard went  stiff and straight like bristling wire, we must keep up our 
 courage. You will  soon be  well, if I do not talk you  to death. You are in 
 Rivendell, and you need not worry about anything for the present.' 
      'I haven't any courage to  keep up,'  said Frodo, `but I am not worried 
@@ -17301,7 +17301,7 @@ single clear voice rose in song.
      Na-chaered palan -dnriel 
      o galadhremmin ennorath, 
      Fanuilos, le linnathon 
-     nef aear, sn nef aearon! 
+     nef aear, sn nef earon! 
      Frodo halted  for a moment,  looking back. Elrond was in his  chair and 
 the  fire was on his face like summer -light upon the trees. Near him sat the 
 Lady Arwen. To  his surprise  Frodo saw that Aragorn stood  beside  her; his 
@@ -17409,7 +17409,7 @@ troubled.
 upon our people. Whence it came we did not at first perceive. Words began to 
 be whispered in secret-: it was said that we were hemmed in  a narrow place, 
 and  that greater wealth and splendour would be found in a wider world. Some 
-spoke of Moria: the mighty works of our fathers  that are called in  our own 
+spoke of Mori: the mighty works of our fathers  that are called in  our own 
 tongue Khazad-dym; and they  declared that now at last  we had the power and 
 numbers to return.' 
      Gluin  sighed. `Moria! Moria! Wonder of the Northern world! Too deep we 
@@ -17482,7 +17482,7 @@ it.'
      Then all listened while  Elrond in his clear voice  spoke of Sauron and 
 the Rings of Power,  and  their forging in the  Second Age of the world long 
 ago. A part of his tale was known to some there, but the full  tale to none, 
-and  many eyes were turned  t= Elrond in  fear and wonder as he  told of the 
+and  many eyes were turned  t Elrond in  fear and wonder as he  told of the 
 Elven-smiths of Eregion and their friendship with Moria, and their eagerness 
 for knowledge,  by which Sauron ensnared them. For  in that time he was  not 
 yet evil to  behold, and they received his  aid  and  grew mighty in  craft, 
@@ -17579,7 +17579,7 @@ Rising  Moon,  eastward  upon  a shoulder of the  Mountains  of  Shadow; and
 westward at the feet of the White  Mountains Minas Anor they made, Tower  of 
 the Setting Sun. There in the courts of the King grew a white tree, from the 
 seed of that tree which Isildur  brought over the  deep waters, and the seed 
-of that tree before came from Eressla, and before that  out of the Uttermost  
+of that tree before came from Eressla, and before that  out of the ttermost  
 West in the Day before days when the world was young. 
      `But  in the  wearing of the  swift years  of Middle-earth the line  of 
 Meneldil son of Anbrion failed, and the  Tree withered, and the blood of the 
@@ -17861,7 +17861,7 @@ foe.
 sorts, even  beasts and birds,  were gathered round the Shire, and  my  fear 
 grew.  I called  for the help of the D_nedain, and their watch  was doubled; 
 and I opened my heart to Aragorn, the heir of Isildur.' 
-     `And I,' said Aragorn, `counselled that we should hunt  for Gollum. too 
+     `And I,' said Aragorn, counselled that we should hunt  for Gollum. too 
 late though it may seem. And since it seemed fit that Isildur's  heir should 
 labour to  repair  Isildur's fault, I went  with  Gandalf  on  the  long and 
 hopeless search.' 
@@ -17971,7 +17971,7 @@ I spoke of. Upon this very ring  which you have here seen  held aloft, round
 and unadorned, the  letters that Isildur reported may  still be read, if one 
 has the strength of will to set the golden thing in the fire a while. That I 
 have done, and this I have read: 
-     Ash  nazg durbatulyk, ush  nazg  gimbatul,  ash  nazg  thrakatulyk  agh  
+     Ash  nazg durbatulk, ush  nazg  gimbatul,  ash  nazg  thrakatulyk  agh  
 burzum-ishi krimpatul.' 
      The change in  the wizard's voice  was  astounding. Suddenly it  became 
 menacing,  powerful, harsh as stone.  A  shadow seemed to pass over the high 
@@ -17990,7 +17990,7 @@ part of his strength  of old. Out of the Black Years come the words that the
 Smiths of Eregion heard, and knew that they had been betrayed: 
      One Ring to  rule them all,  One  Ring to find  them, One Ring to bring 
 them all and in the Darkness bind them. 
-     `Know  also, my  friends, that I learned more yet from Gollum.  He  was 
+     Know  also, my  friends, that I learned more yet from Gollum.  He  was 
 loth to speak and his tale was unclear, but it  is beyond all doubt  that he 
 went to Mordor, and  there all  that  he knew was forced from him. Thus  the  
 Enemy knows now that the  One is found,  that it was  long in the Shire; and 
@@ -18388,7 +18388,7 @@ on  my  second day from  Bree-and they were there befor e me.  They drew
 away 
 from  me, for  they  felt the coming of my anger and they dared not  face it 
 while the Sun  was  in the sky.  But they closed  round at  night, and I was 
-besieged on the hill-top, in the old ring of Amon Syl. I was hard  put to it 
+besieged on the hill-top, in the old ring of Amon yl. I was hard  put to it 
 indeed:  such light and flame  cannot have been seen on Weathertop since the 
 war-beacons of old. 
      `At sunrise I  escaped and fled towards the north. I  could not hope to 
@@ -18938,7 +18938,7 @@ looked out of the window, trying to hum a tune.
      'I cannot thank you as I should, Bilbo,  for this, and for all our past  
 kindnesses,' said Frodo. 
      'Don't try!' said the old hobbit, turning round and slapping him on the 
-back.  `Ow!' he cried. `You are  too  hard  now  to slap! But there you are: 
+back.  `w!' he cried. `You are  too  hard  now  to slap! But there you are: 
 Hobbits must stick together, and especially  Bagginses. All I  ask in return 
 is: take  as much care of yourself as you can. and  bring  back all the news 
 you can, and  any old  songs and  tales you can come by. I'll do  my best to 
@@ -19160,7 +19160,7 @@ Caradhras, we shall come down by the Dimrill Stair into the deep vale of the
 Dwarves. There lies the Mirrormere, and there the River Silverlode rises  in 
 its icy springs.' 
      `Dark is  the water  of  Kheled-zvram,' said Gimli, `and  cold are  the 
-springs of Kibil-nvla. My  heart trembles at the thought that I may see them 
+springs of Kibil-nla. My  heart trembles at the thought that I may see them 
 soon.' 
      `May you have  joy of the sight, my good  dwarf  l' said  Gandalf.   'But 
 whatever you may do, we at least cannot stay in that valley. We must go down 
@@ -19355,7 +19355,7 @@ white flakes of snow settling on his sleeve.
      They went on. But before  long the snow was falling fast,  filling  all 
 the air, and swirling into Frodo's eyes. The dark bent shapes of Gandalf and 
 Aragorn only a pace or two ahead could hardly be seen. 
-     'I don't like this at all,' panted Sam  just behind.  'Snow's all right 
+     'I don't like this at all,' panted Sam  just behind.  'Sno's all right 
 on a fine morning,  but I like to be in  bed while it's falling. I wish this 
 lot would  go off to Hobbiton! Folk  might  welcome  it there.' Except on the 
 high moors of the Northfarthing a heavy fall was rare in the Shire,  and was 
@@ -19652,7 +19652,7 @@ Only  Gimli lifted  up his head; a smouldering fire  was in his eyes. On all
 the others a dread fell at  the mention of that name. Even to the hobbits it 
 was a legend of vague fear: 
      `The road  may lead  to Moria,  but how can  we  hope that it will lead 
-through Moria? ' said Aragorn darkly. 
+through Mori? ' said Aragorn darkly. 
      `It  is a name of ill omen,' said Boromir. `Nor do I see the need to go 
 there. If we cannot cross the mountains, let us journey southwards, until we 
 come  to the Gap of Rohan, where men  are friendly to  my people, taking the 
@@ -19737,7 +19737,7 @@ them in the empty spaces of the night.
      'Need we wait until morning then? ' said Gandalf. `It is as I said. The 
 hunt  is  up! Even if  we live to see the dawn, who now will wish to journey  
 south by night with the wild wolves on his trail? ' 
-     'How far is Moria? ' asked Boromir. 
+     'How far is Mori? ' asked Boromir. 
      `There was a door south-west  of Caradhras,  some  fifteen miles as the 
 crow flies, and maybe twenty as the wolf runs,' answered Gandalf grimly. 
      'Then let  us start as soon as it is light tomorrow, if  we can,'  said 
@@ -20596,7 +20596,7 @@ curious  sense  of foreboding,  to  look more  closely  at it.  Gandalf came
 quickly to his side. On the slab runes were deeply graven: 
 
 ####- 
-     'These  are Daeron's Runes,  such as were used  of  old in Moria,' said 
+     'These  are Deron's Runes,  such as were used  of  old in Moria,' said 
 Gandalf. 'Here is written in the tongues of Men and Dwarves:  
      balin son of fundin 
      lord of moria.' 
@@ -20646,7 +20646,7 @@ Then Balin has set up his seat in the Chamber of Mazarbul. '
 
 ####-stand.' 
      `Well, I can read no more for a long way,'  said  Gandalf, 'except  the 
-word  gold , and Durin's Axe and something  helm. Then  Balin is now  lord of 
+word  gold , and Durin's xe and something  helm. Then  Balin is now  lord of 
 Moria . That seems to  end a  chapter. After some  stars another hand begins,  
 and I can see we found  truesilver,  and  later the  word wellforged and then  
 something, I have it! mithril; and  the last two  lines Uin to  seek for the 
@@ -20675,7 +20675,7 @@ time to  puzzle  out the last few pages. Here  is the last page of  all.' He
 paused and sighed. 
      `It  is grim reading,' he said. 'I fear their end was cruel. Listen! We 
 cannot get  out.  We cannot get out. They have  taken the  Bridge and second 
-hall. Frbr and Luni and  Nbli fell there. Then there are four lines  smeared 
+hall. Frbr and Luni and  bli fell there. Then there are four lines  smeared 
 so  that I can only read went 5 days  ago. The last lines run the pool is up 
 to  the wall  at Westgate. The Wa tcher in  the Water took Uin. We cannot get 
 out. The  end comes, and then  drums, drums in the deep. I wonder what  that 
@@ -20902,7 +20902,7 @@ meant more than it said.
      They  now went  on again. Before long Gimli spoke.  He had keen eyes in 
 the dark. `I think,' he said, `that there  is a light  ahead. But it  is not 
 daylight. It is red. What can it be? ' 
-     `Ghvsh!' muttered  Gandalf. `I wonder if that is what they meant:  that 
+     `Ghsh!' muttered  Gandalf. `I wonder if that is what they meant:  that 
 the lower levels are on fire? Still, we can only go on.' 
      Soon the light became  unmistakable,  and could be  seen by all. It was 
 flickering and glowing  on the walls away down the passage before them. They 
@@ -22049,7 +22049,7 @@ of the Galadhrim, even Celeborn the Wise, would pass nigh and would not
 wish 
 to look upon their ancient home, though it  had become an abode of dragons?  
      'Dark  is  the  water  of  Kheled-zvram, and cold  are the  springs  of 
-Kibil-nvla,  and  fair were  the many-pillared halls  of Khazad-dym in Elder  
+Kibil-nla,  and  fair were  the many-pillared halls  of Khazad-dym in Elder  
 Days before  the fall of mighty  kings beneath  the stone.' She looked  upon 
 Gimli, who sat glowering and sad, and she smiled. And the Dwarf, hearing the 
 names given in his own ancient tongue,  looked up and met her  eyes;  and it 
@@ -22490,7 +22490,7 @@ Chapter 8. Farewell to Lurien
      That  night  the Company was again summoned to the chamber of Celeborn, 
 and there the Lord and Lady greeted them with fair words. At length Celeborn 
 spoke of their departure. 
-     `Now is the time,' he  said, `when those who wish to continue the Quest  
+     `Now is the time,' he  said, when those who wish to continue the Quest  
 must harden their hearts to leave this land.  Those who no longer wish to go  
 forward may remain here, for a while. But whether they stay or go, none  can 
 be sure of  peace.  For we are come now to  the edge of doom. Here those who 
@@ -22921,18 +22921,18 @@ the words: fair was the music, but it did not comfort him.
 and long afterwards he interpreted  them, as well as he could:  the language 
 was that of Elven -song and spoke of things little known on Middle-earth. 
      Ai! lauril lantar lassi s_rinen, 
-     Yjni _nutiml ve rbmar aldaron! 
-     Yjni ve lintl yuldar avbnier 
-     mi oromardi lisse-miruvureva 
+     Yni _nutiml ve rbmar aldaron! 
+     Yni ve lintl uldar avbnier 
+     mi oromardi lisse-miruureva 
      And_nl pella, Vardo tellumar 
      nu luini yassen tintilar i eleni 
      umaryo airetbri-lnrinen. 
  
-     Sn man i yulma nin enquantuva? 
+     Sn man i ulma nin enquantuv? 
  
      An sn Tintalll Varda Oiolosslo  
      ve fanyar mbryat Elentbri ortanl 
-     ar ilyl tier undulbvl lumbull; 
+     ar ilyl tier undulbl lumbull; 
      ar sindanuriello caita mornil 
      i falmalinnar imbl met, ar hnsil 
      unt_pa Calaciryo mnri oiall. 
@@ -24054,7 +24054,7 @@ stood gazing for a moment. stock -still, gaping.  A boat was sliding down the
 ####-bank  all by itself.  With  a shout Sam raced  across  the  grass. The  boat 
 slipped into the wat 
  
-128d 
+18d 
  
 er. 
      `Coming, Mr. Frodo!  Coming! ' called  Sam, and flung himself  from the 
@@ -24125,7 +24125,7 @@ Shadow.
 Here ends the first part of the history of the War of the Ring. 
      The second part is called THE TWO TOWERS, since the events recounted 
 in it are dominated by ORTHANC,  the citadel  of  Saruman, and  the fortress 
-of MINAS MORGUL  that guards the secret entrance  to Mordor;  it  tells  of 
+of MINS MORGUL  that guards the secret entrance  to Mordor;  it  tells  of 
 the deeds and  perils of  all  the members of the now sundered fellowship, until 
 the coming of the Great Darkness. 
      The  third part tells of the  last defence against the Shadow,  and the 
@@ -24526,7 +24526,7 @@ happier hour! Not yet does my road lie southward to your bright streams.
      Fell like bright rain in gardens of the Kings of old. 
      O proud walls! White towers! O winged crown and throne of gold! 
      O Gondor, Gondor! Shall Men behold the Silver Tree, 
-     Or West Wind blow again between the Mountains and the Sea?  
+     Or West Wind blow again between the Mountains and the Se?  
      Now  let  us go!' he said , drawing his  eyes away from  the South,  and 
 looking out west and north to the way that he must tread. 
      The ridge upon  which the companions  stood  went down  steeply  before 
@@ -24690,7 +24690,7 @@ us, riding northward. I wonder what is happening in this land!'
 cloud and fitful sun they hardly paused, now striding, now running, as if no 
 weariness could quench the  fire that burned them.  They seldom spoke.  Over  
 the  wide solitude they  passed  and their elven-cloaks  faded  against  the 
-background of the grey-green fields; even  in the cool  sunlight  of mid-day 
+bacground of the grey-green fields; even  in the cool  sunlight  of mid-day 
 few but elvish eyes would have marked them, until they  were close  at hand. 
 Often  in their  hearts  they thanked the Lady  of  Lurien for  the gift  of 
 lembas, for they could eat of it and find new strength even as they ran. 
@@ -25842,7 +25842,7 @@ in the dark. But these Whiteskins have better night-eyes than most Men, from
 all  I've   heard;  and  don't  forget  their  horses!   They  can  see  the 
 
 ####-night-breeze,  or  so it's  said. Still  there's  one thing the fine fellows 
-don't know: Mauh_r and his lads are  in the forest, and they  should turn up 
+don't know: Mau_r and his lads are  in the forest, and they  should turn up 
 any time now.' 
      Ugl_k's words were enough, apparently, to satisfy  the Isengarders; but 
 the  other Orcs  were  both  dispirited  and  rebellious.  They posted a few 
@@ -25864,7 +25864,7 @@ them. Pippin shuddered as hard cold fingers groped down his back.
      'Well,  my little  ones!' said Grishnbkh  in a soft whisper.  'Enjoying 
 your nice rest? Or not? A little awkwardly placed, perhaps: swords and whips 
 on one side, and nasty spears on  the other! Little people should not meddle 
-_in  affairs that  are too big for them.'  His  fingers continued  to grope. 
+in  affairs that  are too big for them.'  His  fingers continued  to grope. 
 There was a light like a pale but hot fire behind his eyes. 
      The  thought came suddenly into Pippin's mind, as if caught direct from 
 the urgent  thought  of his enemy:  'Grishnbkh  knows about  the  Ring! He's 
@@ -25948,7 +25948,7 @@ the Orcs. From the yells  and screeches that came from the knoll the hobbits
 guessed  that their  disappearance had been discovered:  Ugl_k  was probably 
 knocking  off  a  few  more  heads.  Then suddenly  the answering  cries  of 
 orc-voices came from the  right, outside the circle of watch-fires, from the 
-direction of the forest and the mountains. Mauh_r had apparently arrived and 
+direction of the forest and the mountains. Mau_r had apparently arrived and 
 was attacking the besiegers. There was  the sound  of galloping  horses. The 
 Riders  were  drawing  in  their  ring  close  round the  knoll, risking the 
 orc-arrows, so as  to prevent any sortie, while a company  rode off to  deal 
@@ -25978,7 +25978,7 @@ it seemed a long slow business. They gave the watch-fire a wide  berth,  and
 wormed their way  forward bit  by  bit, until  they came to the edge  of the 
 river, gurgling away in  the black shadows under its deep   banks. Then  they 
 looked back. 
-     The sounds  had  died away.  Evidently  Mauh_r  and his 'lads' had been 
+     The sounds  had  died away.  Evidently  Mau_r  and his 'lads' had been 
 killed or driven off. The Riders had returned to their silent ominous vigil. 
 It would not last very much longer. Already  the night was old. In the East, 
 which had remained unclouded, the sky was beginning to grow pale. 
@@ -26340,7 +26340,7 @@ grief.  Laurelindurenan lindelorendor malinornjlion ornemalin ,' he hummed to
 himself. 'They are falling rather  behind  the world in  there, I guess,' he 
 said 'Neither  this country, nor anything else  outside the Golden  Wood, is 
 what it was when Celeborn was young. Still: 
-     Taurelilumla-tumbalemorna Tumbaletaurla Lumlanor,1 
+     Taurelilumla-tumbalemorna Tumbaletaurla Lumlanor1 
      that is what  they used to say.  Things have  changed, but it is  still 
 true in places.' 
      'What do you mean?' said Pippin. 'What is true?' 
@@ -26542,7 +26542,7 @@ others: it was the Elves that cured us of  dumbness long ago, and that was a
 great gift that cannot be forgotten, though our  ways have parted since. And 
 there are  some things, of  course, whose side I am altogether not  on; I am 
 against  them altogether: these -- burbrum' (he again  made a deep rumble of 
-disgust)' -- these Orcs, and their masters.  
+disgust' -- these Orcs, and their masters.  
      'I  used to  be  anxious  when the shadow lay on Mirkwood, but when  it 
 removed to Mordor, I did not trouble for a while : Mordor is a long way away. 
 But it seems that the wind is setting  East,  and the withering of all woods 
@@ -26621,14 +26621,14 @@ counting  on his fingers. 'Fangorn,  Finglas, Fladrif, aye, aye,' he sighed.
 'The trouble is  that there are so  few of us left,' he said turning towards 
 the hobbits. 'Only  three remain of the first Ents that walked in the  woods 
 before  the  Darkness: only myself, Fangorn, and  Finglas  and Fladrif  -- to 
-give them their Elvish names; you may call them Leaflock and Skinbark if you  
-like that better. And of us three Leaflock and Skinbark are not much use for  
+give them their Elvish names; you may call them Leaflock and kinbark if you  
+like that better. And of us three Leaflock and kinbark are not much use for  
 this business. Leaflock has grown sleepy. almost  tree-ish, you might say: he 
 has taken to standing by himself half-asleep all through the summer with the 
 deep grass of the meadows round his knees. Covered with leafy hair he is. He 
 
 ####-used to rouse up in winter; but of late he has been  too drowsy to walk   far 
-even then.  Skinbark  lived on the mountain-slopes west of Isengard. That is 
+even then.  kinbark  lived on the mountain-slopes west of Isengard. That is 
 where the worst  trouble  has been. He was wounded by the Orcs,  and many of 
 his folk and his tree-herds have been murdered and destroyed. He has gone up 
 into the high places, among the birches that he loves  best, and he will not 
@@ -26986,7 +26986,7 @@ far away  the voices of  the Entmoot  could be heard still going on; but now
 they seemed deeper and less  leisurely,  and every  now  and again one great 
 voice would rise in a high and  quickening music,  while all the others died 
 away.  But beside them Bregalad  spoke gently  in their  own  tongue, almost 
-whispering; and they learned that  he belonged to Skinbark's people, and the  
+whispering; and they learned that  he belonged to kinbark's people, and the  
 country where they had lived had been ravaged. That  seemed  to the  hobbits 
 quite enough to explain his 'hastiness', at least in the matter of Orcs. 
      'There were rowan-trees in my home,'  said Bregalad,  softly and sadly, 
@@ -28356,7 +28356,7 @@ old
 man whom they had left crouching in his chair or leaning on his stick? 
      'It is my doing,  lord,' said Hbma,  trembling. I understood that Jomer  
 was  to be set free. Such  joy was in my heart that maybe I have erred. Yet, 
-since  he was free again, and he  a  Marshal of  the Mark,!  brought him his 
+since  he was free again, and he  a  Marshal of  the Mark!  brought him his 
 sword as he bade me.' 
      'To lay at your feet, my lord,' said Jomer. 
      For a moment of silence Thjoden stood looking down at Jomer as he knelt 
@@ -28441,7 +28441,7 @@ noon!'
 bewitched  you.  Are  none  to  be  left to defend  the  Golden Hall of your 
 fathers, and all your treasure? None to guard the Lord of the Mark?' 
      'If this is bewitchment,' said Thjoden, 'it seems to me more  wholesome 
-than your whisperings. Your leechcraft ere long would have had me walking on 
+than your whisperings. Your leeccraft ere long would have had me walking on 
 all  fours like  a beast.  No, not  one shall be left, not even Grnma. Grnma  
 shall ride too. Go! You have ye t time to clean the rust from your sword.' 
      'Mercy, lord!' whined Wormtongue,  grovelling on the ground. 'Have pity 
@@ -28653,7 +28653,7 @@ Mark; but Firefoot, my horse, will bear us both, if you will.'
 with you, if Legolas, my comrade, may ride beside us.' 
      'It shall he so,'  said Jomer. 'Legolas upon  my left, and Aragorn upon 
 my right, and none will dare to stand before us!' 
-     'Where is Shadowfax?' said Gandalf.  
+     'Where is Shadowfa?' said Gandalf.  
      'Running  wild  over the grass,' they  answered.  'He  will let  no man 
 handle him. There he goes, away down by the  ford, like a  shadow among  the 
 willows.' 
@@ -30309,7 +30309,7 @@ don't like axes. But there would have to be a great many axe -men to one Ent:
 a man  that hacks once at  an  Ent  never  gets a chance of a second blow. A 
 punch from an Ent-fist crumples up iron like thin tin. 
      'When Treebeard had got a few  arrows  in  him, he began to warm up, to  
-get positively "hasty", as he would say. He let  out a great hoom-hom, and a  
+get positively "hast", as he would say. He let  out a great hoom-hom, and a  
 dozen more Ents came striding up. An angry Ent is terrifying. Their fingers,  
 and  their toes,  just  freeze  on  to  rock;  and  they  tear  it  up  like 
 bread-crust. It was like watching the work of  great tree-roots in a hundred 
@@ -30431,7 +30431,7 @@ face clearly: it seemed to shine, and all his clothes were white. I just sat
 up, staring, with my mouth open. I tried to call out, and couldn't. 
      'There  was no  need.  He  halted  just by  us and looked down  at  us. 
 'Gandalf!' I said  at last.  but my voice  was only  a whisper. Did he  say: 
-"Hullo, Pippin! This is a pleasant surprise!"? No, indeed! He said: "Get up, 
+"Hullo, Pippin! This is a pleasant surprise!? No, indeed! He said: "Get up, 
 you tom-fool  of a Took! Where, in the name of wonder, in  all  this ruin is 
 
 ####-Treebeard? I want him. Quick!" 
@@ -30442,7 +30442,7 @@ Treebeard  might almost have been loitering about near the  gates on purpose
 to  meet  him. Yet we  had  told  the old  Ent all  about  Moria. But then I 
 remembered a queer look he gave us  at the time. I can only suppose that  he 
 had  seen Gandalf or  had some  news of him, but would not say anything in a 
-hurry. "Don't  be hasty" is  his motto; but nobody, not even Elves, will say 
+hurry. "Don't  be hast" is  his motto; but nobody, not even Elves, will say 
 much about Gandalf's movements when he is not there. 
      '"Hoom! Gandalf!" said Treebeard.  "I  am  glad  you have come. Wood and 
 water, stock and stone, I can master; but there is a Wizard to manage here." 
@@ -30853,7 +30853,7 @@ claw of  Mordor. Cruel  and cold! Even if your war on me was just as  it was
 not, for were you ten times as wise you  would have no right  to rule me and 
 mine  for your own profit  as  you desired  --  even so, what will you say of 
 your torches in Westfold  and  the children  that lie dead  there?  And they 
-hewed Hbma's body before the gates of the Hornburg, after he  was dead. 
+hewed Hbm's body before the gates of the Hornburg, after he  was dead. 
 When 
 you hang from  a  gibbet at  your  window for the sport of your own crows, I 
 will have peace with you and  Orthanc.  So  much  for  the House  of  Eorl. A 
@@ -31029,7 +31029,7 @@ renounce both Mordor and his private schemes, and  make amends by helping
 us 
 in our need.  He knows our need,  none better.  Great service he could  have 
 
-####-rendered. But he  has chosen to withhold it, and  keep the power of Orthanc. 
+####-rendered. But he  has chosen to withold it, and  keep the power of Orthanc. 
 He will not  serve, only command. He  lives now  in  terror of the shadow of 
 Mordor, and yet he still dreams of riding  the storm. Unhappy fool!  He will  
 be devoured, if the power of the East stretches out its arms to Isengard. We 
@@ -31161,7 +31161,7 @@ to your pride,  I should say that, at the moment, you and Pippin are more in
 his thoughts than all the rest of us.  Who you are; how  you came there, and 
 why; what  you know;  whether you were captured,  and if so, how you escaped 
 when all the Orcs perished -- it is with those little riddles that the great 
-mind _f Saruman is troubled. A sneer from him, Meriadoc, is a compliment, if 
+mind f Saruman is troubled. A sneer from him, Meriadoc, is a compliment, if 
 you feel honoured by his concern.' 
      'Thank  you!' said Merry. 'But it is a greater honour to dangle at your 
 tail, Gandalf. For one thing, in that position one has a chance of putting a  
@@ -31550,7 +31550,7 @@ Gandalf. 'In that way they long guarded and united the realm of Gondor. They
 set up Stones at Minas Anor, and at  Minas Ithil, and at Orthanc in the ring 
 of Isengard. The  chief  and master of these was under  the Dome of Stars at 
 Osgiliath before  its ruin. The three others were far  away in the North. In 
-the house  of Elrond  it is told that they were at Ann_minas, and  Amon Syl, 
+the house  of Elrond  it is told that they were at Ann_minas, and  Amon yl, 
 and Elendil's Stone was on the Tower Hills that look towards M ithlond in the 
 Gulf of Lune where the grey ships lie. 
      'Each palantnr replied to each, but all those in Gondor were  ever open 
@@ -32441,7 +32441,7 @@ tiring, but now he looked up and halted.
      `Day  is near,'  he whispered,  as  if  Day  was  something  that might 
 overhear  him and spring on  him. `Smjagol will stay here: I will stay here, 
 and the Yellow Face won't see me.' 
-     `We should be glad to see the Sun;' said Frodo, `but we will stay here: 
+     `We should be glad to see the Sun' said Frodo, `but we will stay here: 
 we are too tired to go any further at present.' 
      `You are not  wise  to  be glad of the  Yellow Face,' said  Gollum. `It 
 shows you up. Nice sensible hobbits stay with Smjagol. Orcs and nasty things 
@@ -33470,7 +33470,7 @@ sayings  go. But I've heard tales of the big folk down away in the Sunlands.
 Swertings we call 'em in our tales;  and they ride on oliphaunts, 'tis said, 
 when they fight. They put houses and towers  on  the oliphauntses backs  and 
 all,  and  the oliphaunts throw rocks and trees at one another. So  when you  
-said  "Men out of the  South, all  in red and gold;" I said  "were there any 
+said  "Men out of the  South, all  in red and gold" I said  "were there any 
 oliphaunts? " For if there was, I was going to  take a look, risk or no. But 
 now I don't suppose I'll ever see  an oliphaunt. Maybe there ain't no such a  
 beast.' He sighed. 
@@ -34497,7 +34497,7 @@ could!'
 quickly  to a  small river in a narrow  gorge:  it was the  same stream that 
 trickled  far  above out of  the round pool, now grown  to  a swift torrent, 
 leaping down over many stones in a deep-cloven bed,  overhung  with ilex and 
-dark box-woods. Looking west they could see,  below them in a haze of light, 
+dark bo-woods. Looking west they could see,  below them in a haze of light, 
 lowlands and broad meads, and glinting far off in the westering sun the wide  
 waters of the Anduin. 
      'Here, alas! I must do you  a discourtesy,' said  Faramir.  "I hope you  
@@ -34575,7 +34575,7 @@ they wished. Meanwhile  men busied themselves about the cave, quietly and in
 orderly  quickness. Light  tables  were taken from the walls and  set  up on 
 trestles and laden  with gear .  This was plain and unadorned  for  the  most 
 part,  but  all well and fairly,  made:  round platters, bowls and dishes of 
-glazed brown clay or turned box-wood, smooth and clean. Here and there was a  
+glazed brown clay or turned bo-wood, smooth and clean. Here and there was a  
 cup or basin of polished bronze; and a goblet of plain  silver was set by the 
 Captain's seat in the middle of the inmost table. 
      Faramir went about  among the men, questioning each as he came in, in a  
@@ -34816,7 +34816,7 @@ Gaffer used to say to me, and right enough. O dear, O dear!
 courage  that he  could muster. `Don't you go taking advantage of my  master 
 because his servant's no better than a fool. You've spoken very handsome all  
 along,  put me off my  guard,  talking of Elves and all. But  handsome is as 
-handsome does we say. Now's a chance to show your quality.' 
+handsome does we say. No's a chance to show your quality.' 
      'So  it seems,' said Faramir,  slowly and  very  softly, with a strange 
 smile.  `So that  is the answer  to all the riddles! The One Ring  that  was 
 thought to  have perished  fr om  the world. And Boromir tried to take  it by 
@@ -35292,7 +35292,7 @@ any  of us  set foot upon the  Mountains of Shadow. Of them we know only old
 report and the  rumour of bygone  days. But there  is some  dark terror that 
 dwells in the  passes above Minas Morgul. If Cirith Ungol  is named, old men 
 and masters of lore will blanch and fall silent. 
-     ,The valley  of Minas Morgul passed into evil very long ago, and it was 
+     The valley  of Minas Morgul passed into evil very long ago, and it was 
 a menace  and  a  dread while the banished  Enemy dwelt  yet far  away,  and 
 Ithilien was still for the most par t in our keeping.  As you know, that city 
 was once a strong place, proud and fair, Minas Ithil, the twin sister of our 
@@ -36213,7 +36213,7 @@ sleeping, and that made me a bit sharp.  But Mr.  Frodo.  he's that tired, I
 asked him to have a wink; and well,  that's how it is. Sorry. But where have 
 you been to? ' 
      `Sneaking,' said Gollum, and the green glint did not leave his  eyes. 
-     'O very well,' said Sam, `have it your own way! I don't suppose it's so 
+     'O very well,' said Sam, have it your own way! I don't suppose it's so 
 far  from the truth. And now  we'd  better all  be  sneaking along together. 
 What's the time? Is it today or tomorrow? ' 
      'It's tomorrow,' said Gollum, 'or this  was  tomorrow when hobbits went 
@@ -36450,7 +36450,7 @@ shadow in between. They were gone.
      'Master, master!' cried Sam. He was close behind,  his own  sword drawn 
 and ready. 'Stars  and glory!  But the Elves would make a song  of  that, if 
 ever they heard of it! And may I live   to tell them and hear them sing.  But 
-don't go  on, master. Don't go down to that den! Now's our only chance.  Now 
+don't go  on, master. Don't go down to that den! No's our only chance.  Now 
 let's get out of this foul hole!' 
      And  so back they turned once more, first walking and then running; for  
 as they  went the  floor  of   the tunnel rose steeply, and with every stride 
@@ -36733,7 +36733,7 @@ her long  world of wickedness. Not the doughtiest soldier of old Gondor, nor
 the most savage Orc  entrapped, had ever thus  endured  her, or set blade to 
 her beloved flesh. A shudder  went through her.  Heaving up again, wrenching 
 away  from the  pain,  she  bent her writhing limbs  beneath  her and sprang 
-backwards in a convulsive leap. 
+backwards in a conulsive leap. 
      Sam had fallen to his knees by Frodo's head, his senses  reeling in the 
 foul stench, his two hands still gripping the hilt of the sword. Through the 
 mist before his eyes he was  aware  dimly of Frodo's face  and stubbornly he 
@@ -36905,7 +36905,7 @@ elvish beauty,  as of one who has  long  passed the  shadows. And  with  the
 bitter comfort of that last sight Sam  turned and hid the light and stumbled 
 on into the growing dark. 
      He  had not far to go.  The  tunnel was some way  behind;  the  Cleft a  
-couple of hundred yards ahead, or less. The path was visible in  the dusk` a  
+couple of hundred yards ahead, or less. The path was visible in  the dus` a  
 deep rut worn in  ages of  passage,  running  now gently up in a long trough 
 with cliffs on either side. The trough narrowed rapidly. Soon Sam came  to a  
 
@@ -37172,7 +37172,7 @@ Anyhow. I've  got watchers  at every point, and  I'm  going to deal with one
 thing at a  time. When  I've had  a look at the fellow we have caught,  then 
 I'll begin to worry  
  
-1cb2 
+cb2 
  
 
 ####-about something else.' 
@@ -38331,7 +38331,7 @@ bells in the towers tolled solemnly. Lights sprang in many windows, and from
 the houses and wards of the men at arms along the walls there came the sound 
 of song. 
      'Farewell  for  this  time,'  said  Bergil.  'Take  my  greetings to my 
-:father, and thank him for the company that he sent. Come again soon, I beg.  
+father, and thank him for the company that he sent. Come again soon, I beg.  
 Almost  I wish now that there was no war,  for we might have  had some merry 
 times. We might have journeyed to Lossarnach, to my grandsire's house; it is 
 good to be  there in Spring, the  woods and fields are  full of flowers. But 
@@ -39467,7 +39467,7 @@ all unguarded. Yet six thousands at the  least shall ride behind me. For say
 to Denethor that in this hour the King of the Mark himself will come down to 
 the land  of Gondor, though  maybe  he will not ride back. But it is a  long 
 road, and man and beast must reach the end with strength to fight. A week it 
-may be from tomorrow's morn  ere you hear the cry of the Sons of Eorl coming 
+may be from tomorro's morn  ere you hear the cry of the Sons of Eorl coming 
 from the North. 
      'A week!' said Hirgon. 'If it must be so, it must. But you are like  to 
 find  only  ruined  walls  in  seven  days  from  now,   unless  other  help 
@@ -40412,7 +40412,7 @@ Tower had: dread and despair.
      The Nazgyl came again, and  as  their  Dark Lord now grew and put forth  
 his strength, so their voices, which uttered only his  will and  his malice, 
 were filled with  evil and  horror. Ever they circled  above the  City, like 
-vultures that expect their fill of doomed men's flesh. Out of sight and shot 
+ultures that expect their fill of doomed men's flesh. Out of sight and shot 
 they  flew, and yet were ever present, and their deadly voices rent the air. 
 More unbearable they became, not  less, at each new cry.  At length even the 
 stout-hearted would  fling  themselves to the  ground as the  hidden  menace 
@@ -40647,7 +40647,7 @@ beyond he loomed up, grown  to a vast menace of despair. In rode the Lord of
 the Nazgyl, under  the  archway that no  enemy ever yet had  passed, and all  
 fled before his face. 
      All save one. There waiting,  silent and still in the  space before the 
-Gate, sat Gandalf upon Shadowfax: Shadowfax who alone  among the free 
+Gate, sat Gandalf upon Shadowfa: Shadowfax who alone  among the free 
 horses 
 of  the earth endured the terror, unmoving,  steadfast as  a graven image in 
 Rath Dnnen. 
@@ -41494,7 +41494,7 @@ in his song of the Mounds of Mundburg:
 
 ####- 
 
-Chapter 7. The Pyre of Denethor 
+Chapter 7. The yre of Denethor 
 
  
  
@@ -42300,7 +42300,7 @@ herbs to a  careless soldier who throws away his gear,  you are mistaken. If
 your pack has not been found, then you must send for the herb-master of this 
 
 ####-House. And he will tell you that he  did  not know that the herb  you desire 
-had  any  virtues, but  that it is  called westmansweed by  the vulgar,  and 
+had  any  virtues, but  that it is  called westmansweed by  the ulgar,  and 
 galenas by the  noble,  and  other names  in other tongues more learned, and 
 after adding  a few half-forgotten  rhymes that he  does not understand,  he 
 will regretfully inform  you  that there is none in the  House, and  he will 
@@ -42805,7 +42805,7 @@ knights apiece. No, he will not smile.'
 bitter for laughter.  Nay, it is the last  move in a great jeopardy, and for 
 one  side or  the other  it  will bring the end of the game.' Then  he  drew 
 And_ril and  held it up glittering  in the sun. 'You shall  not  be sheathed 
-again until the last battle is fought;' he said. 
+again until the last battle is fought' he said. 
  
 
 ####- 
@@ -43238,7 +43238,7 @@ now. Good-bye!' And his thought fled far away and his eyes saw no more.
  
  
 
- * BOOK VI *  
+ * BOOK I *  
 
 Chapter 1. The Tower of Cirith Ungol 
 
@@ -43477,7 +43477,7 @@ strong for his will to  overcome barred  the way. He  looked about, and then
 within the shadow of the gate he saw the Two Watchers. 
      They were like great figures seated upon thrones. Each had three joined 
 bodies,  and three heads facing outward, and inward, and across the gateway. 
-The  heads had vulture-faces, and on  their  great knees were  laid clawlike 
+The  heads had ulture-faces, and on  their  great knees were  laid clawlike 
 hands. They seemed to be carved out of huge blocks  of stone, immovable, and 
 yet they were aware: some dreadful  spirit of evil vigilance  abode in them. 
 They knew  an  enemy.  Visible or  invisible none  could pass unheeded. They 
@@ -44085,7 +44085,7 @@ expected: a tangle of thorny bushes.  There Sam  lay still, softly sucking a
 scratched hand. 
      When  the sound of  hoof  and foot  had passed  he ventured a  whisper. 
 'Bless me, Mr. Frodo, but I didn't know as anything grew in Mordor! But if I 
-had a'known, this is just what I'd have  looked  for. These thorns must be a  
+had 'known, this is just what I'd have  looked  for. These thorns must be a  
 foot long by the feel of them; they've stuck through everything I've got on. 
 Wish I'd a'put that mail -shirt on!' 
      'Orc-mail  doesn't keep  these thorns out,'  said Frodo.  'Not  even  a  
@@ -44148,7 +44148,7 @@ the Lady.'
 Brandywine, and  Woody  End,  and  The  Water  running  through  the mill at 
 Hobbiton. But I can't see them now.' 
      'There  now, Mr.  Frodo, it's you  that's  talking of water this time!' 
-said Sam. 'If only the  Lady could see us or hear us, I'd say to  her: (Your 
+said Sam. 'If only the  Lady could see us or hear us, I'd say to  her: Your 
 Ladyship,  all  we  want is  light  and  water:  just clean water and  plain 
 daylight, better than any jewels,  begging your pardon.( But it's a long way 
 to Lurien.' Sam sighed and waved his  hand towards the heights of the  Ephel 
@@ -45520,7 +45520,7 @@ and laughing he sprang from his bed.
      'How do I feel?' he cried. 'Well, I don't know how to say it. I feel, I 
 feel' - he waved his arms in the air  - 'I feel like spring after winter, and 
 sun on the leaves; and like trumpets and harps and all the songs I have ever  
-heard!' He stopped and he turned towards his  master. 'But how's Mr. Frodo?' 
+heard!' He stopped and he turned towards his  master. 'But ho's Mr. Frodo?' 
 he said. 'Isn't it a shame about  his poor hand? But  I hope he's all  right 
 otherwise. He's had a cruel time.' 
      'Yes, I am all right otherwise,' said Frodo, sitting up and laughing in 
@@ -46526,7 +46526,7 @@ Goldwine, and Djor, and Gram; and Helm who lay  hid in Helm's Deep when
 the 
 Mark was overrun; and so ended the nine mounds of the west-side, for in that 
 time the  line  was  broken,  and after came  the  mounds of the  east-side: 
-Frjalaf,  Helm s sister -son, and  Ljofa, and Walda, and Folca, and Folcwine,  
+Frjalaf,  Helm s sister -son, and  jofa, and Walda, and Folca, and Folcwine,  
 and Fengel, and Thengel, and Thjoden the latest. And when Thjoden  was 
 named 
 Jomer drained the  cup. Then Jowyn bade those  that served to fill the cups, 
@@ -46754,7 +46754,7 @@ and held it up, and there came a green fire from his hand.
      Soon the dwindling company, following the  Isen,  turned west  and rode 
 through  the  Gap  into  the  waste  lands  beyond,  and  then  they  turned 
 northwards, and passed over the borders of Dunland. The Dunlendings fled and 
-hid themselves, for they were afraid of Elv ish Folk,  though few indeed ever  
+hid themselves, for they were afraid of El ish Folk,  though few indeed ever  
 came to  their country; but the travellers  did not heed them, for they were 
 still a great company and were well provided  with all that they needed; and  
 they went  on  their way at their leisure, setting  up their tents when they 
@@ -47485,7 +47485,7 @@ direction of the Woody End.
 on the Road, about  twenty -two  miles  from the Bridge. There  they meant to 
 stay  the night; The Floating Log at  Frogmorton was a good inn. But as they  
 came to the  east  end of the village they met a barrier with  a large  board 
-saying NO ROAD; and behind it stood a large band of Shirriffs with staves in 
+saying NO RAD; and behind it stood a large band of Shirriffs with staves in 
 their hands  and  feathers in their caps,  looking both important and rather  
 scared. 
      'What's all this?' said Frodo, feeling inclined to laugh. 
@@ -47759,7 +47759,7 @@ you, and what's all this to-do? '
      'It's Sam, Sam Gamgee. I've come back.' 
      Farmer Cotton came up close  and stared at him in the twilight. 'Well!' 
 he exclaimed. 'The voice is right, and your face is  no worse  than  it was,  
-Sam. But  I should a' passed you in the street in that gear. You've been  in 
+Sam. But  I should ' passed you in the street in that gear. You've been  in 
 foreign parts, seemingly. We feared you were dead.' 
      'That I ain't!'  said Sam.  'Nor Mr. Frodo. He's here and  his friends. 
 And  that's  the to-do. They're raising the Shire. We're going to clear  out 
@@ -48559,9 +48559,9 @@ Bilbo  Baggins from his own  observations  and the  accounts of his friends.
 What we did in the War of the Ring. 
      Here Bilbo's hand ended and Frodo had written: 
  
-     THE DOWNFALL 
+     THE DOWALL 
      OF THE 
-     LORD OF THE RINGS 
+     LORD OF THE INGS 
      AND THE 
      RETURN OF THE KING 
  
@@ -48601,7 +48601,7 @@ valley, voices sang:
      A! Elbereth Gilthoniel! 
      silivren penna mnriel 
      o menel aglar elenath, 
-     Gilthoniel, A! Elbereth! 
+     Gilthoniel, ! Elbereth! 
      We still remember, we who dwell 
      In this far land beneath the trees 
 
