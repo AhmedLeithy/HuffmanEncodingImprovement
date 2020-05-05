@@ -65,7 +65,7 @@ class HuffmanEncoder
 
 
 	//statistics
-	void printStatistics();
+	void printStatistics(double x);
 
 
 	//debugging

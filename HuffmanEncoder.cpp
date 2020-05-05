@@ -299,12 +299,9 @@ void HuffmanEncoder::encodeTree(string & encodedTable)
 	int cursor = 16;
 
 	string rows = bitset<16>(encodingMap.size()).to_string();
-	if (operationMode == 1) {
-		
-	} else if (operationMode == 2)
-
-	for (int i = 0; i < 16; i++) {
-		encodedTableArr[i] = rows[i];
+	
+	for (int j = 0; j < 16; j++) {
+		encodedTableArr[j] = rows[j];
 	}
 
 	for (auto i : encodingMap) {
@@ -370,10 +367,11 @@ void HuffmanEncoder::encodeTree(string & encodedTable)
 
 void HuffmanEncoder::decodeTree(string& file)
 {
+	unordered_map<string, string>  encodingMap2 = encodingMap;
 	encodingMap.clear();
-	t.~tree;
+	t.~tree();
 
-	int rows = int(bitset<16>(file.substr(0, 16)).to_ulong);
+	int rows = int(bitset<16>(file.substr(0, 16)).to_ulong());
 
 	int cursor = 16;
 	/*
@@ -401,14 +399,20 @@ void HuffmanEncoder::decodeTree(string& file)
 		if (bigram) {
 			char2 = char(bitset<8>(file.substr(cursor, 8)).to_ulong());
 			cursor += 8;
-			symbol += char1;
+			symbol += char2;
 		}
 
 		string encoding = file.substr(cursor, length);
+		cursor += length;
 
 		encodingMap[symbol] = encoding;
 	}
 
+	file = file.substr(cursor, file.size() - cursor);
+
+
+	node* newRoot = new node;
+	t.root = newRoot;
 	for (auto i : encodingMap) {
 		insertCodingIntoTree(i.second, i.first);
 	}
@@ -416,11 +420,33 @@ void HuffmanEncoder::decodeTree(string& file)
 }
 
 void HuffmanEncoder::insertCodingIntoTree(string coding, string symbol) {
+
 	node* cursor = t.root;
+	for (int i = 0; i < coding.length(); i++) {
+		if (coding[i] == '0') {
+			if (cursor->right == NULL) {
+				node* newNode = new node;
+				cursor->right = newNode;
+				cursor = newNode;
+			}
+			else {
+				cursor = cursor->right;
+			}
+		}
+		else {
+			if (cursor->left == NULL) {
+				node* newNode = new node;
+				cursor->left = newNode;
+				cursor = newNode;
+			}
+			else {
+				cursor = cursor->left;
+			}
+		}
 
-	for (int i; i < symbol.length(); i++) {
-
-	
+		if (i == coding.length() - 1) {
+			cursor->symbol = symbol;
+		}
 	}
 }
 
@@ -619,8 +645,79 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 
 	}
 
-	FileHandler::writeEncoding(path, &encFile); 
+	FileHandler::writeEncoding(path, &encFile);
+
+	double encl = encFile.length();
+	printStatistics(encl);
 }
+
+void HuffmanEncoder::printStatistics(double x) //entropy, compression ratio.
+{
+	int total = (*fileText).length();
+	double fileEntropy = 0;
+	double encEntropy = 0;
+	double temp = 0;
+	if (operationMode != 0)
+		countSingleFrequencies();
+
+	for (int i = 0; i < 256; i++) //for file entropy based on its freq
+	{
+		if (singleSymbolFrequencies[i] > 0)
+		{
+			temp = static_cast<double>(singleSymbolFrequencies[i]) / static_cast<double>(total);
+			fileEntropy = fileEntropy - temp * (log2(temp));
+			temp = 0;
+		}
+	}
+
+	double avgLength = 0;
+	if (operationMode == 0)
+	{
+		for (auto i : encodingMap)
+		{
+			avgLength = avgLength + static_cast<double>(singleSymbolFrequencies[i.first[0]]) / static_cast<double>(total) * i.second.length();
+		}
+	}
+	else
+		if (operationMode == 1)
+		{
+			for (auto i : encodingMap)
+			{
+				if (i.first.length() == 1)
+					temp = static_cast<double>(singleSymbolFrequencies[i.first[0]]) / static_cast<double>(total);
+				else
+					temp = static_cast<double>(twoSymbolFrequencies[i.first[0]][i.first[1]]) / (static_cast<double>(total)*2);
+
+				avgLength = avgLength + temp * i.second.length();
+				encEntropy = fileEntropy - temp * (log2(temp));
+				temp = 0;
+			}
+
+		}
+		else
+		{
+			for (auto i : encodingMap)
+			{
+				temp = static_cast<double>(blockSymbolFrequencies[i.first[0]][i.first[1]]) / static_cast<double>(total);
+				avgLength = avgLength + temp * i.second.length();
+				encEntropy = fileEntropy - temp * (log2(temp));
+				temp = 0;
+			}
+			//avgLength = avgLength / 2; //isn't that what we did in assignment? cause it's a block of two? 
+		}
+
+	double comp = x / (8 * static_cast<double>(total));
+	cout << "some stats..." << endl;
+	cout << "avg length of encoding: " << avgLength << endl;
+	if (operationMode != 0)
+		cout << "entropy of encoding: " << encEntropy << endl;
+	cout << "entropy of file: " << fileEntropy << endl;
+	cout << "Compression ratio: " << comp << endl;
+}
+
+
+
+
 
 /*
 [5]

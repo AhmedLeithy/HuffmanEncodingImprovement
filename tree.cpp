@@ -13,8 +13,10 @@ node tree::combineNodes(node& left, node& right)
 }
 
 void tree::deleteNode(node* ptr) {
-	deleteNode(ptr->left);
-	deleteNode(ptr->right);
+	if(ptr->left)
+		deleteNode(ptr->left);
+	if(ptr->right)
+		deleteNode(ptr->right);
 	delete ptr;
 }
 

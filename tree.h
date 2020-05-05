@@ -6,6 +6,6 @@ class tree
 public:
 	node* root = nullptr;
 	node combineNodes(node& left, node& right);
-	~tree(){}
+	~tree();
 };
 
