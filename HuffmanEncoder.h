@@ -16,14 +16,16 @@ class HuffmanEncoder
 	1 = modified single symbol huffman encoding
 	2 = 2 block encoding
 	*/
-
 	int encodeTable = 1;
 	/*
 	Should the tree encoded? 
 	*/
 
 	unordered_map<string, string> encodingMap;
+	unordered_map<string, int> bigramCount;
 
+	int bigramTotal = 0;
+	double bigrams = 0;
 	string* fileText = new string();
 	string* encText = new string();
 

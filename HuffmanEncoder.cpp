@@ -204,7 +204,7 @@ void HuffmanEncoder::buildTreeMSS()
 		bigramQueue.pop();
 
 		if (
-			ceil(-log2(maxFreq.frequency / (n - 1))) < (ceil(-log2(singleSymbolFrequencies[maxFreq.i] / n)) + ceil(-log2(singleSymbolFrequencies[maxFreq.j] / n)))
+			(-log2(maxFreq.frequency / (n - 1))) < 1.2*((-log2(singleSymbolFrequencies[maxFreq.i] / n)) + (-log2(singleSymbolFrequencies[maxFreq.j] / n)))
 			&& singleSymbolFrequencies[maxFreq.i] >= maxFreq.frequency
 			&& singleSymbolFrequencies[maxFreq.j] >= maxFreq.frequency
 			)
@@ -226,9 +226,6 @@ void HuffmanEncoder::buildTreeMSS()
 			//letter must be reduced by the frequency of the combination
 		}
 	}
-
-
-
 
 	operationMode = 0;
 	printNonZeroFrequencies();
@@ -272,17 +269,6 @@ void HuffmanEncoder::buildTreeBlock()
 
 void HuffmanEncoder::encodeTree(string & encodedTable)
 {	
-	/*
-	char* decText = (char*)malloc(sizeof(char) * (20000 + 1));
-	int size = 20000;
-
-				if (position > size - 1)
-				{
-					size = size + 50000;
-					decText = (char*)realloc(decText, sizeof(char) * (size + 1));
-				}
-	*/
-
 	/*
 		NumberOfRows in two bytes
 
@@ -367,7 +353,6 @@ void HuffmanEncoder::encodeTree(string & encodedTable)
 
 void HuffmanEncoder::decodeTree(string& file)
 {
-	unordered_map<string, string>  encodingMap2 = encodingMap;
 	encodingMap.clear();
 	t.~tree();
 
@@ -551,6 +536,10 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 	} 
 	else if (operationMode==1) //modified SS
 	{
+		for (auto i : encodingMap) {
+			bigramCount[i.first] = 0;
+		}
+
 		for(int i=0; i<l;i++)
 		{
 			char stringArray[2];
@@ -565,11 +554,15 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 				{
 					st1 = st2;
 					i++;
+					bigrams++;
 				}
 				else
 				{
 					st1 += (*fileText)[i];
 				}
+				bigramTotal++;
+				bigramCount[st1]++;
+
 			}
 			else 
 			{
@@ -642,7 +635,6 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 		string encodedTable = "";
 		encodeTree(encodedTable);
 		encFile = encodedTable+ encFile ;
-
 	}
 
 	FileHandler::writeEncoding(path, &encFile);
@@ -657,8 +649,17 @@ void HuffmanEncoder::printStatistics(double x) //entropy, compression ratio.
 	double fileEntropy = 0;
 	double encEntropy = 0;
 	double temp = 0;
-	if (operationMode != 0)
+	int modifiedSingleSymbols[256];
+
+	
+
+	if (operationMode != 0) {
+		for (int i = 0; i < 256; i++) {
+			modifiedSingleSymbols[i] = singleSymbolFrequencies[i];
+			singleSymbolFrequencies[i] = 0;
+		}
 		countSingleFrequencies();
+	}
 
 	for (int i = 0; i < 256; i++) //for file entropy based on its freq
 	{
@@ -681,34 +682,49 @@ void HuffmanEncoder::printStatistics(double x) //entropy, compression ratio.
 	else
 		if (operationMode == 1)
 		{
-			for (auto i : encodingMap)
-			{
-				if (i.first.length() == 1)
-					temp = static_cast<double>(singleSymbolFrequencies[i.first[0]]) / static_cast<double>(total);
-				else
-					temp = static_cast<double>(twoSymbolFrequencies[i.first[0]][i.first[1]]) / (static_cast<double>(total)*2);
+			for (auto i : encodingMap){
+				temp = static_cast<double>(bigramCount[i.first] / static_cast<double>(bigramTotal));
+				/*
+				ABCDEF
+				A BC DE F
 
-				avgLength = avgLength + temp * i.second.length();
-				encEntropy = fileEntropy - temp * (log2(temp));
+				A F
+				BC DE
+				*/
+				avgLength = i.first.length()==2 ? avgLength + temp * i.second.length()/2.0 : avgLength + temp * i.second.length();
+				encEntropy = temp ==0? encEntropy : encEntropy - temp * (log2(temp));
 				temp = 0;
 			}
+			
+		} 
 
-		}
+		/*
+			frequency(a)/ total
+			singleprobability => a * b
+		*/
 		else
 		{
 			for (auto i : encodingMap)
 			{
-				temp = static_cast<double>(blockSymbolFrequencies[i.first[0]][i.first[1]]) / static_cast<double>(total);
+				temp = static_cast<double>(blockSymbolFrequencies[i.first[0]][i.first[1]]) / (static_cast<double>(total)/2);
 				avgLength = avgLength + temp * i.second.length();
-				encEntropy = fileEntropy - temp * (log2(temp));
+				encEntropy = encEntropy - temp * (log2(temp));
 				temp = 0;
 			}
+
+			avgLength /= 2;
 			//avgLength = avgLength / 2; //isn't that what we did in assignment? cause it's a block of two? 
 		}
 
 	double comp = x / (8 * static_cast<double>(total));
 	cout << "some stats..." << endl;
 	cout << "avg length of encoding: " << avgLength << endl;
+
+	double avgBigramLength;
+	if(operationMode==1)
+		avgBigramLength = 2 * bigrams / bigramTotal + 1 - (bigrams / bigramTotal);
+	
+	cout << "efficiency: " << (operationMode == 2 ? encEntropy/(avgLength*2) : operationMode == 1 ? (encEntropy/(avgLength*avgBigramLength))  : fileEntropy/avgLength) << endl;
 	if (operationMode != 0)
 		cout << "entropy of encoding: " << encEntropy << endl;
 	cout << "entropy of file: " << fileEntropy << endl;
