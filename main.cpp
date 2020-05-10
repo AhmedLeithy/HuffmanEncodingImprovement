@@ -5,11 +5,19 @@ using namespace std;
 
 int main()
 {
+	string path = "gibberish.txt";
+
+
 	HuffmanEncoder hf;
 
+	hf.runSingleSymbol(path);
 
-	//hf.runSingleSymbol("lotr2.txt");
-	//hf.runModifiedSS("test2.txt");
-	hf.runTwoBlock("test2.txt");
+
+	//HuffmanEncoder hf2;
+	//hf.runModifiedSS(path);
+
+
+	//HuffmanEncoder hf3;
+	//hf.runTwoBlock(path);
 }
 

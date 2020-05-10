@@ -6,7 +6,7 @@
 #include <queue>
 
 using namespace std;
-#define debug 0
+//#define debug 0
 
 class HuffmanEncoder
 {
@@ -16,13 +16,17 @@ class HuffmanEncoder
 	1 = modified single symbol huffman encoding
 	2 = 2 block encoding
 	*/
-	int encodeTable = 1;
+	int encodeTable = 0;
 	/*
 	Should the tree encoded? 
 	*/
 
 	unordered_map<string, string> encodingMap;
 	unordered_map<string, int> bigramCount;
+	double lambda;
+	unordered_map<string, unordered_map<char, int>> biPreviousFreqs;
+	unordered_map<string, unordered_map<char, int>> biAfterFreqs;
+
 
 	int bigramTotal = 0;
 	double bigrams = 0;
@@ -51,6 +55,7 @@ class HuffmanEncoder
 	void buildTreeStructure(priority_queue<node, vector<node>, greater<node>> &q);
 	void buildTreeSS();
 	void buildTreeMSS();
+	void buildTreeMSS2();
 	void buildTreeBlock();
 	void encodeTree(string & encodedTable); //Encodes 
 	void decodeTree(string & file); //Reconstructs tree from string
@@ -83,8 +88,13 @@ public:
 	void runAll(string path = "source.txt");
 	void encode(string path = "enc.bin");
 	void decode(string writePath = "dec.txt", string readPath = "enc.bin");
+	double compressionRatio;
 
 
 	HuffmanEncoder();
+	HuffmanEncoder(double l) {
+		lambda = l;
+	}
+
 };
 

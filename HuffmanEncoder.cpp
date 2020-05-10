@@ -43,8 +43,21 @@ void HuffmanEncoder::countTwoSymbolFrequencies()
 	#endif
 	int	fileTextLength = (*fileText).length();
 	int loopLength = fileTextLength - 1;
-	for (int i = 0; i < loopLength; i++)
+
+	for (int i = 0; i < loopLength; i++) {
 		twoSymbolFrequencies[(*fileText)[i]][(*fileText)[i + 1]]++;
+	
+		/*string s;
+		s += (*fileText)[i];
+		s += (*fileText)[i+1];
+
+		if (i != 0)
+			biPreviousFreqs[s][(*fileText)[i-1]]++;
+
+		if(i != fileTextLength-1)
+			biAfterFreqs[s][(*fileText)[i + 2]]++;*/
+
+	}
 
 }
 void HuffmanEncoder::countBlockSymbolFrequencies()
@@ -112,7 +125,8 @@ void HuffmanEncoder::buildTreeSS()
 	buildTreeStructure(queue);
 }
 struct bigram{
-	int i, j, frequency;
+	int i, j;
+	double frequency;
 	
 	bigram(int ii, int ji, int freq) {
 		i = ii;
@@ -149,52 +163,6 @@ void HuffmanEncoder::buildTreeMSS()
 			{
 				bigram bi = bigram(i, j, twoSymbolFrequencies[i][j]);
 				bigramQueue.push(bi);
-				/*
-				- criteria AVERAGE
-				- manual thresholds
-
-
-				-log(p) => codeLength
-
-				ciel(-log(p)) => codeLength
-
-				codelengh(p1p2) < codelength(p1) + codelength(p2)
-
-				ciel(-log(p1p2)) < ciel(-log(p1)) + codelength(p2)
-
-				*/
-				/*
-				float n = (*fileText).length();
-				if (
-					ceil(-log2(twoSymbolFrequencies[i][j]/(n-1))) < ceil(-log2(singleSymbolFrequencies[i] / n)) +ceil(-log2(singleSymbolFrequencies[j] /n))
-					//&& singleSymbolFrequencies[i] >= twoSymbolFrequencies[i][j]
-					//&& singleSymbolFrequencies[j] >= twoSymbolFrequencies[i][j]
-					)
-				{
-					string c1 = string(1, char(i));
-					string c2 = string(1, char(j));
-					string symbolName = c1 + c2;
-
-					node temp = node(symbolName, twoSymbolFrequencies[i][j]);
-					queue.push(temp);
-
-					int initialSingle = singleSymbolFrequencies[i];
-					int initialSingle2 = singleSymbolFrequencies[j];
-					int twosymbol = twoSymbolFrequencies[i][j];
-					
-					singleSymbolFrequencies[i] -= twoSymbolFrequencies[i][j];
-					singleSymbolFrequencies[j] -= twoSymbolFrequencies[i][j];
-					
-					if (singleSymbolFrequencies[i] < 0 || singleSymbolFrequencies[j] < 0) {
-						int x = 2;
-					}
-					
-					//if this two symbol is included, then the frequency each 
-					//letter must be reduced by the frequency of the combination
-					
-				}
-			*/
-
 			}
 		}
 	float n = (*fileText).length();
@@ -202,13 +170,16 @@ void HuffmanEncoder::buildTreeMSS()
 	while (!bigramQueue.empty()) {
 		bigram maxFreq = bigramQueue.top();
 		bigramQueue.pop();
+		maxFreq.frequency = twoSymbolFrequencies[maxFreq.i][maxFreq.j];
 
 		if (
-			(-log2(maxFreq.frequency / (n - 1))) < 1.2*((-log2(singleSymbolFrequencies[maxFreq.i] / n)) + (-log2(singleSymbolFrequencies[maxFreq.j] / n)))
+			(-log2(maxFreq.frequency / (n - 1))) < lambda*(((-log2(singleSymbolFrequencies[maxFreq.i] / n))) + (-log2(singleSymbolFrequencies[maxFreq.j] / n)))
 			&& singleSymbolFrequencies[maxFreq.i] >= maxFreq.frequency
 			&& singleSymbolFrequencies[maxFreq.j] >= maxFreq.frequency
 			)
 		{
+
+
 			string c1 = string(1, char(maxFreq.i));
 			string c2 = string(1, char(maxFreq.j));
 			string symbolName = c1 + c2;
@@ -219,20 +190,118 @@ void HuffmanEncoder::buildTreeMSS()
 			int initialSingle = singleSymbolFrequencies[maxFreq.i];
 			int initialSingle2 = singleSymbolFrequencies[maxFreq.j];
 
-			singleSymbolFrequencies[maxFreq.i] =  maxFreq.frequency > initialSingle ? 0 : initialSingle - (maxFreq.frequency/2.0);
-			singleSymbolFrequencies[maxFreq.j] =  maxFreq.frequency > initialSingle2 ? 0 : initialSingle2 - (maxFreq.frequency/2.0);
+			singleSymbolFrequencies[maxFreq.i] =  maxFreq.frequency >= singleSymbolFrequencies[maxFreq.i] ? 1 : singleSymbolFrequencies[maxFreq.i] - (maxFreq.frequency/2.0);
+			singleSymbolFrequencies[maxFreq.j] =  maxFreq.frequency >= singleSymbolFrequencies[maxFreq.j] ? 1 : singleSymbolFrequencies[maxFreq.j] - (maxFreq.frequency/2.0);
 
+			if (singleSymbolFrequencies[maxFreq.i] == 0) {
+				cout << "el7a2";
+			}
+
+			
 			//if this two symbol is included, then the frequency each 
 			//letter must be reduced by the frequency of the combination
+
+
 		}
 	}
 
-	operationMode = 0;
+	/*operationMode = 0;
 	printNonZeroFrequencies();
-	operationMode = 1;
+	operationMode = 1;*/
 
 	for (int i = 0; i < 256; i++)
 		if (singleSymbolFrequencies[i]) 
+		{
+			string s(1, char(i));
+			node temp = node(s, singleSymbolFrequencies[i]);
+			queue.push(temp);
+		}
+	//cout << "minimum  symbol \t" << queue.top().symbol << " frequency \t" << queue.top().frequency << endl;
+
+	//tree t;
+	buildTreeStructure(queue);
+}
+
+void HuffmanEncoder::buildTreeMSS2()
+{
+	priority_queue<node, vector<node>, greater<node>> queue;
+	map<string, bool> includedBigrams;
+	priority_queue<bigram> bigramQueue;
+
+	for (int i = 0; i < 256; i++)
+		for (int j = 0; j < 256; j++)
+		{
+			if (twoSymbolFrequencies[i][j])
+			{
+				bigram bi = bigram(i, j, twoSymbolFrequencies[i][j]);
+				bigramQueue.push(bi);
+			}
+		}
+	double n = (*fileText).length();
+
+	while (!bigramQueue.empty()) {
+		bigram maxFreq = bigramQueue.top();
+		bigramQueue.pop();
+		maxFreq.frequency = twoSymbolFrequencies[maxFreq.i][maxFreq.j];
+
+		if (
+			(-log2(maxFreq.frequency / (n - 1)))  <(-log2(singleSymbolFrequencies[maxFreq.i] / n))+ (-log2(singleSymbolFrequencies[maxFreq.j] / n))
+			&& singleSymbolFrequencies[maxFreq.i] >= maxFreq.frequency
+			&& singleSymbolFrequencies[maxFreq.j] >= maxFreq.frequency
+			)
+		{
+			string c1 = string(1, char(maxFreq.i));
+			string c2 = string(1, char(maxFreq.j));
+			string symbolName = c1 + c2;
+			node temp = node(symbolName, maxFreq.frequency);
+			queue.push(temp);
+
+			int initialSingle = singleSymbolFrequencies[maxFreq.i];
+			int initialSingle2 = singleSymbolFrequencies[maxFreq.j];
+
+
+
+			
+			if (initialSingle> maxFreq.frequency) {
+
+				singleSymbolFrequencies[maxFreq.i] = initialSingle - (maxFreq.frequency)/2.0;
+
+				for (auto i : includedBigrams) {
+					if(i.first[1]==char(maxFreq.i))
+						singleSymbolFrequencies[maxFreq.i] += biPreviousFreqs[symbolName][i.first[0]];
+				}
+			
+			}
+			else
+				singleSymbolFrequencies[maxFreq.i] = 1;
+			
+			
+			if (initialSingle2 > maxFreq.frequency) {
+				singleSymbolFrequencies[maxFreq.j] = initialSingle2 - (maxFreq.frequency)/2;
+
+				for (auto i : includedBigrams) {
+					if (i.first[0] == char(maxFreq.j))
+						singleSymbolFrequencies[maxFreq.j] += biAfterFreqs[symbolName][i.first[1]];
+				}
+			
+			}
+			else
+				singleSymbolFrequencies[maxFreq.j] = 1;
+			
+			for (int k = 0; k < 256; k++) {
+				twoSymbolFrequencies[k][maxFreq.i] -= biPreviousFreqs[symbolName][char(k)];
+				twoSymbolFrequencies[maxFreq.j][k] -= biAfterFreqs[symbolName][char(k)];
+			}
+
+
+
+
+			includedBigrams[symbolName] = true;
+		}
+	}
+
+	for (int i = 0; i < 256; i++)
+		if (singleSymbolFrequencies[i])
 		{
 			string s(1, char(i));
 			node temp = node(s, singleSymbolFrequencies[i]);
@@ -491,7 +560,7 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 		{
 			for (auto i : encodingMap) 
 			{
-				cout << i.first << "\t" << i.second << endl;
+				//cout << i.first << "\t" << i.second << endl;
 				if(i.first.length()==2)
 					sum += i.second.length() * twoSymbolFrequencies[i.first[0]][i.first[1]];
 				else
@@ -512,7 +581,7 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 	int addedZeroes = (8 - sum % 8) % 8;
 
 
-	char* encText = new char[sum+addedZeroes+8];
+	char* encText = new char[sum*2+addedZeroes+8];
 	int cursor = 0;
 
 	if (operationMode==0)
@@ -568,6 +637,10 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 			{
 				st1 += (*fileText)[i];
 			}
+			if (encodingMap.find(st1) == encodingMap.end()) {
+				cout << st1;
+				throw exception("Couldnt find st1");
+			}
 			string code = encodingMap[st1];
 			for (int j = 0; j < code.size(); j++)
 			{
@@ -575,8 +648,8 @@ void HuffmanEncoder::encode(string path) //where are we calling dis?
 				cursor++;
 			}
 
-			if (i % 50000 == 0)
-				cout << i << endl;
+			//if (i % 50000 == 0)
+				//cout << i << endl;
 		}
 	}
 	else
@@ -695,9 +768,7 @@ void HuffmanEncoder::printStatistics(double x) //entropy, compression ratio.
 				encEntropy = temp ==0? encEntropy : encEntropy - temp * (log2(temp));
 				temp = 0;
 			}
-			
 		} 
-
 		/*
 			frequency(a)/ total
 			singleprobability => a * b
@@ -711,7 +782,6 @@ void HuffmanEncoder::printStatistics(double x) //entropy, compression ratio.
 				encEntropy = encEntropy - temp * (log2(temp));
 				temp = 0;
 			}
-
 			avgLength /= 2;
 			//avgLength = avgLength / 2; //isn't that what we did in assignment? cause it's a block of two? 
 		}
@@ -729,6 +799,9 @@ void HuffmanEncoder::printStatistics(double x) //entropy, compression ratio.
 		cout << "entropy of encoding: " << encEntropy << endl;
 	cout << "entropy of file: " << fileEntropy << endl;
 	cout << "Compression ratio: " << comp << endl;
+
+	double compressionRatio = comp;
+
 }
 
 
@@ -898,7 +971,7 @@ void HuffmanEncoder::runModifiedSS(string path)
 	
 	buildTree();
 	encode();
-	decode();
+	//decode();
 }
 
 
@@ -915,4 +988,5 @@ void HuffmanEncoder::runTwoBlock(string path)
 
 HuffmanEncoder::HuffmanEncoder()
 {
+	lambda = 1.2;
 }
