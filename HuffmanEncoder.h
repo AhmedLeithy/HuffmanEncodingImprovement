@@ -16,7 +16,7 @@ class HuffmanEncoder
 	1 = modified single symbol huffman encoding
 	2 = 2 block encoding
 	*/
-	int encodeTable = 1;
+	int encodeTable = 0;
 	/*
 	Should the tree encoded? 
 	*/
